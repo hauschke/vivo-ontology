@@ -2724,10 +2724,10 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
     <owl:DatatypeProperty rdf:about="http://aims.fao.org/aos/geopolitical.owl#GDP">
         <geopolitical:sourceCreator>World Bank</geopolitical:sourceCreator>
         <geopolitical:sourceIdentifier xml:lang="ar">http://data.albankaldawli.org/indicator/NY.GDP.MKTP.CD</geopolitical:sourceIdentifier>
+        <geopolitical:sourceIdentifier>http://data.worldbank.org/indicator/NY.GDP.MKTP.CD</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="en">http://data.worldbank.org/indicator/NY.GDP.MKTP.CD</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="es">http://datos.bancomundial.org/indicador/NY.GDP.MKTP.CD</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="fr">http://donnees.banquemondiale.org/indicateur/NY.GDP.MKTP.CD</geopolitical:sourceIdentifier>
-        <geopolitical:sourceIdentifier>http://data.worldbank.org/indicator/NY.GDP.MKTP.CD</geopolitical:sourceIdentifier>
         <geopolitical:sourceModified>2010-12-16</geopolitical:sourceModified>
         <terms:description>GDP at purchaser&apos;s prices is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in current U.S. dollars. Dollar figures for GDP are converted from domestic currencies using single year official exchange rates. For a few countries where the official exchange rate does not reflect the rate effectively applied to actual foreign exchange transactions, an alternative conversion factor is used. Source: World Bank national accounts data, and OECD National Accounts data files. http://data.worldbank.org/indicator/NY.GDP.MKTP.CD</terms:description>
         <terms:source>World Bank http://data.worldbank.org/indicator/NY.GDP.MKTP.CD</terms:source>
@@ -2772,10 +2772,10 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:DatatypeProperty rdf:about="http://aims.fao.org/aos/geopolitical.owl#HDI">
         <geopolitical:sourceCreator>UNDP - HDRO</geopolitical:sourceCreator>
+        <geopolitical:sourceIdentifier>http://hdrstats.undp.org/en/indicators/49806.html</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="en">http://hdrstats.undp.org/en/indicators/49806.html</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="es">http://hdrstats.undp.org/es/indicadores/49806.html</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="fr">http://hdrstats.undp.org/fr/indicateurs/49806.html</geopolitical:sourceIdentifier>
-        <geopolitical:sourceIdentifier>http://hdrstats.undp.org/en/indicators/49806.html</geopolitical:sourceIdentifier>
         <geopolitical:sourceModified>2010-11-04</geopolitical:sourceModified>
         <terms:description> composite index measuring average achievement in three basic dimensions of human development-a long and healthy life, knowledge and a decent standard of living. Source: Calculated based on data from UNDESA (2009d), Barro and Lee (2010), UNESCO Institute for Statistics (2010b), World Bank (2010b) and IMF(2010a) . http://hdrstats.undp.org/en/indicators/49806.html</terms:description>
         <terms:description> composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living. Source: Calculated based on data from UNDESA (2009d), Barro and Lee (2010), UNESCO Institute for Statistics (2010b), World Bank (2010b) and IMF(2010a) . http://hdrstats.undp.org/en/indicators/49806.html</terms:description>
@@ -2812,10 +2812,10 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:DatatypeProperty rdf:about="http://aims.fao.org/aos/geopolitical.owl#agriculturalArea">
         <geopolitical:sourceCreator>FAOSTAT</geopolitical:sourceCreator>
+        <geopolitical:sourceIdentifier>http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=en#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="en">http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=en#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="es">http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=es#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="fr">http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=fr#ancor</geopolitical:sourceIdentifier>
-        <geopolitical:sourceIdentifier>http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=en#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceModified>2010-07-21</geopolitical:sourceModified>
         <terms:description>Agricultural area, this category is the sum of areas under a) arable land - land under temporary agricultural crops (multiple-cropped areas are counted only once), temporary meadows for mowing or pasture, land under market and kitchen gardens and land temporarily fallow (less than five years). The abandoned land resulting from shifting cultivation is not included in this category. Data for “Arable land” are not meant to indicate the amount of land that is potentially cultivable; (b) permanent crops - land cultivated with long-term crops which do not have to be replanted for several years (such as cocoa and coffee); land under trees and shrubs producing flowers, such as roses and jasmine; and nurseries (except those for forest trees, which should be classified under &quot;forest&quot;); and (c) permanent meadows and pastures - land used permanently (five years or more) to grow herbaceous forage crops, either cultivated or growing wild (wild prairie or grazing land). Data are expressed in 1000 hectares. http://faostat.fao.org/site/375/default.aspx </terms:description>
         <terms:source>FAOSTAT http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=en#ancor</terms:source>
@@ -2991,10 +2991,10 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:DatatypeProperty rdf:about="http://aims.fao.org/aos/geopolitical.owl#countryArea">
         <geopolitical:sourceCreator>FAOSTAT</geopolitical:sourceCreator>
+        <geopolitical:sourceIdentifier>http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=en#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="en">http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=en#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="es">http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=es#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="fr">http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=fr#ancor</geopolitical:sourceIdentifier>
-        <geopolitical:sourceIdentifier>http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=en#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceModified>2011-07-21</geopolitical:sourceModified>
         <terms:description>Country area, area of the country including area under inland water bodies, but excluding offshore territorial waters. Possible variations in the data may be due to updating and revisions of the country data and not necessarily to any change of area. Data are expressed in 1000 hectares. http://faostat.fao.org/site/375/default.aspx </terms:description>
         <terms:source>FAOSTAT http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=en#ancor</terms:source>
@@ -3135,10 +3135,10 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:DatatypeProperty rdf:about="http://aims.fao.org/aos/geopolitical.owl#landArea">
         <geopolitical:sourceCreator>FAOSTAT</geopolitical:sourceCreator>
+        <geopolitical:sourceIdentifier>http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=en#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="en">http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=en#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="es">http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=es#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="fr">http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=fr#ancor</geopolitical:sourceIdentifier>
-        <geopolitical:sourceIdentifier>http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=en#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceModified>2011-07-21</geopolitical:sourceModified>
         <terms:description>Land area is the total area of the country excluding area under inland water bodies. Possible variations in the data may be due to updating and revisions of the country data and not necessarily to any change of area. Data are expressed in 1 000 hectares. http://faostat.fao.org/site/375/default.aspx </terms:description>
         <terms:source>FAOSTAT http://faostat.fao.org/DesktopDefault.aspx?PageID=377&amp;lang=en#ancor</terms:source>
@@ -3778,10 +3778,10 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:DatatypeProperty rdf:about="http://aims.fao.org/aos/geopolitical.owl#population">
         <geopolitical:sourceCreator>FAOSTAT</geopolitical:sourceCreator>
+        <geopolitical:sourceIdentifier>http://faostat.fao.org/DesktopDefault.aspx?PageID=550&amp;lang=en#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="en">http://faostat.fao.org/DesktopDefault.aspx?PageID=550&amp;lang=en#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="es">http://faostat.fao.org/DesktopDefault.aspx?PageID=550&amp;lang=es#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceIdentifier xml:lang="fr">http://faostat.fao.org/DesktopDefault.aspx?PageID=550&amp;lang=fr#ancor</geopolitical:sourceIdentifier>
-        <geopolitical:sourceIdentifier>http://faostat.fao.org/DesktopDefault.aspx?PageID=550&amp;lang=en#ancor</geopolitical:sourceIdentifier>
         <geopolitical:sourceModified>2009-09-21</geopolitical:sourceModified>
         <terms:description>The total population usually refers to the present-in-area (de facto) population which includes all persons physically present within the present geographical boundaries of countries at the mid-point of the reference period.  http://faostat.fao.org/site/375/default.aspx</terms:description>
         <terms:source>FAOSTAT http://faostat.fao.org/site/550/default.aspx</terms:source>
@@ -7118,8 +7118,8 @@ JAR: A data item is an approximately justified approximately true approximate be
         <obo:IAO_0000111 xml:lang="en">information content entity</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">Examples of information content entites include journal articles, data, graphical layouts, and graphs.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
-        <obo:IAO_0000115 xml:lang="en">an information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity</obo:IAO_0000115>
         <obo:IAO_0000115>The most general classification of an information resource</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">an information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">information_content_entity &apos;is_encoded_in&apos; some digital_entity in obi before split (040907). information_content_entity &apos;is_encoded_in&apos; some physical_document in obi before split (040907).
 
 Previous. An information content entity is a non-realizable information entity that &apos;is encoded in&apos; some digital or physical entity.</obo:IAO_0000116>
@@ -7248,8 +7248,8 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <obo:IAO_0000111 xml:lang="en">planned process</obo:IAO_0000111>
         <obo:IAO_0000111>planned process</obo:IAO_0000111>
+        <obo:IAO_0000111 xml:lang="en">planned process</obo:IAO_0000111>
         <obo:IAO_0000112>Injecting mice with a vaccine in order to test its efficacy</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
         <obo:IAO_0000115 xml:lang="en">A processual entity that realizes a plan which is the concretization of a plan specification.</obo:IAO_0000115>
@@ -7888,8 +7888,8 @@ A study in which an individual acts has his/her own comparison does not fall int
         <obo:IAO_0000112 xml:lang="en">A journal article, patent application, laboratory notebook, or a book</obo:IAO_0000112>
         <obo:IAO_0000112>Short Definition from the bibo ontology</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
-        <obo:IAO_0000115 xml:lang="en">A collection of information content entities intended to be understood together as a whole</obo:IAO_0000115>
         <obo:IAO_0000115>A bounded physical representation of a body of information designed with the capacity (and usually intent) to communicate</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A collection of information content entities intended to be understood together as a whole</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON: Lawrence Hunter</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
         <rdfs:comment xml:lang="en">A document (noun) is a bounded physical representation of body of information designed with the capacity (and usually intent) to communicate. A document may manifest symbolic, diagrammatic or sensory-representational information.</rdfs:comment>
