@@ -18,6 +18,7 @@
      xmlns:study_protocol="http://purl.org/net/OCRe/study_protocol.owl#">
     <owl:Ontology rdf:about="http://vivoweb.org/ontology/core">
         <terms:license rdf:resource="https://spdx.org/licenses/Unlicense.html"/>
+        <rdfs:comment>This is another test</rdfs:comment>
         <rdfs:label xml:lang="en-us">VIVO Core Ontology</rdfs:label>
     </owl:Ontology>
     
@@ -10687,6 +10688,14 @@ Contents
         <obo:IAO_0000112>Use workshop for individual events.</obo:IAO_0000112>
         <obo:IAO_0000115>An organized series of workshop events, whether repetitions of the same workshop or multiple different workshops.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">Workshop Series</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core/VIBSO_0000000 -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core/VIBSO_0000000">
+        <rdfs:label xml:lang="de">booooooya</rdfs:label>
     </owl:Class>
     
 
