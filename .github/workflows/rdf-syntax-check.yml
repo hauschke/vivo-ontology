@@ -1,4 +1,4 @@
-            - name: RDF syntax check
+- name: RDF syntax check
   # You may pin to the exact commit or the version.
   # uses: AtomGraph/RDF-syntax-check@0f71a3d488b7787bb467a13d21704b31f81595de
   uses: AtomGraph/RDF-syntax-check@v1.0.5
