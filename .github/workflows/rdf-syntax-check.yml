@@ -10,13 +10,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Download Apache Jena
+        run: |
+          curl -sS --fail "https://archive.apache.org/dist/apache-jena/binaries/apache-jena-4.7.0-bin.tar.gz" -o "/home/runner/work/_temp/jena-bin.tar.gz"
+        continue-on-error: true
+
+      - name: Extract Apache Jena
+        run: |
+          tar -xzf /home/runner/work/_temp/jena-bin.tar.gz -C /home/runner/work/_temp/
+        
       - name: RDF syntax check
         uses: AtomGraph/RDF-syntax-check@v1.0.5
         with:
-          # The Jena version to set up; pin to a specific version if needed
-          jena-version: '4.7.0'  # Default value, adjust as necessary
-          
-          # The Apache distribution URL; use the default if no custom URL is needed
-          asf-archive: 'https://archive.apache.org/dist/apache-jena/'
-          
-          # Optionally, specify additional configurations here if the action supports it
+          jena-version: '4.7.0'
+          asf-archive: 'https://archive.apache.org/dist/apache-jena/binaries/'
