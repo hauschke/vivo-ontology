@@ -12,11 +12,14 @@ jobs:
 
       - name: Download Apache Jena
         run: |
-          curl -sS --fail "https://dlcdn.apache.org/jena/binaries/apache-jena-5.1.0.tar.gz" -o "/home/runner/work/_temp/jena.tar.gz"
+          curl -sS --fail "https://dlcdn.apache.org/jena/binaries/apache-jena-5.1.0.tar.gz" -o "/home/runner/work/_temp/apache-jena-5.1.0.tar.gz"
+
+      - name: List files
+        run: ls -la /home/runner/work/_temp/
 
       - name: Extract Apache Jena
         run: |
-          tar -xzf /home/runner/work/_temp/jena.tar.gz -C /home/runner/work/_temp/
+          tar -xzf /home/runner/work/_temp/apache-jena-5.1.0.tar.gz -C /home/runner/work/_temp/
         
       - name: RDF syntax check
         uses: AtomGraph/RDF-syntax-check@v1.0.5
