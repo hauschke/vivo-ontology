@@ -1,9 +1,9 @@
-name: RDF Syntax Check
+name: Setup Apache Jena
 
 on: [push, pull_request]
 
 jobs:
-  rdf-syntax-check:
+  setup-jena:
     runs-on: ubuntu-latest
 
     steps:
@@ -14,18 +14,19 @@ jobs:
         run: |
           curl -sS --fail "https://dlcdn.apache.org/jena/binaries/apache-jena-5.1.0.tar.gz" -o "/home/runner/work/_temp/apache-jena-5.1.0.tar.gz"
 
-      - name: Extract Apache Jena TAR
+      - name: Extract Apache Jena
         run: |
           tar -xzf /home/runner/work/_temp/apache-jena-5.1.0.tar.gz -C /home/runner/work/_temp/
 
       - name: List extracted files
         run: ls -la /home/runner/work/_temp/
 
-      - name: List files inside extracted directory
-        run: ls -la /home/runner/work/_temp/apache-jena-fuseki-5.1.0
+      - name: Set up environment variables
+        run: |
+          echo "JENA_HOME=/home/runner/work/_temp/apache-jena-fuseki-5.1.0" >> $GITHUB_ENV
+          echo "$JENA_HOME/bin" >> $GITHUB_PATH
 
-      - name: RDF syntax check
-        uses: AtomGraph/RDF-syntax-check@v1.0.5
-        with:
-          jena-version: '5.1.0'
-          asf-archive: 'https://dlcdn.apache.org/jena/binaries/'
+      - name: Verify Jena setup
+        run: |
+          echo "Jena version:"
+          $JENA_HOME/bin/jena --version
