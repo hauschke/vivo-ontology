@@ -1,10 +1,45 @@
-- name: RDF syntax check
-  # You may pin to the exact commit or the version.
-  # uses: AtomGraph/RDF-syntax-check@0f71a3d488b7787bb467a13d21704b31f81595de
-  uses: AtomGraph/RDF-syntax-check@v1.0.5
-  with:
-    # The Jena version to set up
-    jena-version: # default is 4.7.0
-    # The Apache distribution URL
-    asf-archive: # default is https://archive.apache.org/dist/
+name: Compare OWL Files
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  compare-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: '11'  # or your preferred version
+
+      - name: Set up Maven
+        uses: actions/setup-maven@v3
+        with:
+          maven-version: '3.8.6'  # or your preferred version
+
+      - name: Build with Maven
+        run: mvn install  # This installs your dependencies and builds the project
+
+      - name: Run OwlAPI
+        run: mvn exec:java -Dexec.mainClass="com.example.YourMainClass"  # Replace with your main class
+
+      - name: RDF syntax check
+        uses: AtomGraph/RDF-syntax-check@v1.0.5
+        with:
+          # Specify the Jena version you want to use; default is 4.7.0
+          jena-version: '4.7.0'  # or another version if required
+
+          # Optionally specify a custom Apache distribution URL
+          asf-archive: 'https://archive.apache.org/dist/'
           
+      - name: Compare files
+        run: diff original_file.owl new_file.owl  # Replace with your diff command
