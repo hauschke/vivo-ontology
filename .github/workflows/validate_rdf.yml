@@ -3,43 +3,43 @@ name: Validate vivo.owl
 on:
   pull_request:
     paths:
-      - 'vivo.owl'  # trigger if  vivo.owl is changed
-  workflow_dispatch: # manual trigger
+      - 'vivo.owl'  # Trigger only when vivo.owl is changed
+  workflow_dispatch: # Allow manual triggering
+
 jobs:
   validate-rdf:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Download Apache Jena
       - name: Download Apache Jena
         run: |
-          wget https://downloads.apache.org/jena/binaries/apache-jena-4.8.0.tar.gz -O apache-jena.tar.gz
+          wget https://dlcdn.apache.org/jena/binaries/apache-jena-5.2.0.tar.gz -O apache-jena.tar.gz
           ls -la apache-jena.tar.gz
 
+      # Extract Apache Jena
       - name: Extract Apache Jena
         run: |
           tar -xzf apache-jena.tar.gz
-          ls -la apache-jena-4.8.0/bin
+          ls -la apache-jena-5.2.0/bin
 
+      # Add Apache Jena to PATH
       - name: Add Apache Jena to PATH
         run: |
-          export PATH=$GITHUB_WORKSPACE/apache-jena-4.8.0/bin:$PATH
+          export PATH=$GITHUB_WORKSPACE/apache-jena-5.2.0/bin:$PATH
           echo "Updated PATH: $PATH"
 
+      # Validate vivo.owl
       - name: Validate RDF
         run: |
-          $GITHUB_WORKSPACE/apache-jena-4.8.0/bin/riot --validate vivo.owl > validation_report.txt || true
+          $GITHUB_WORKSPACE/apache-jena-5.2.0/bin/riot --validate vivo.owl > validation_report.txt || true
           cat validation_report.txt
 
-      # Validate vivo.owl with Apache Jena's riot
-      - name: Validate vivo.owl
-        id: validate
-        run: |
-          riot --validate vivo.owl > validation_report.txt || true
-
-      # Output validation report as a PR comment
+      # Post validation report to PR
       - name: Post validation report to PR
         if: github.event_name == 'pull_request'
         uses: marocchino/sticky-pull-request-comment@v2
