@@ -5,30 +5,33 @@ on:
     paths:
       - 'vivo.owl'  # trigger if  vivo.owl is changed
   workflow_dispatch: # manual trigger
-
 jobs:
-  validate-vivo-owl:
+  validate-rdf:
     runs-on: ubuntu-latest
 
     steps:
-      # Check out the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Install Apache Jena
-      - name: Install Apache Jena (latest)
+      - name: Download Apache Jena
         run: |
-         sudo apt-get update
-         sudo apt-get install -y openjdk-11-jre-headless wget
-         wget -O apache-jena-5.2.0.tar.gz https://dlcdn.apache.org/jena/binaries/apache-jena-5.2.0.tar.gz
-         tar -xzf apache-jena-5.2.0.tar.gz
-         export PATH=$PATH:$PWD/apache-jena-*/bin
+          wget https://downloads.apache.org/jena/binaries/apache-jena-4.8.0.tar.gz -O apache-jena.tar.gz
+          ls -la apache-jena.tar.gz
 
-      # Find riot
-      - name: Verify Apache Jena Installation
+      - name: Extract Apache Jena
         run: |
-         echo $PATH
-         ls -la $PWD/apache-jena-4.8.0/bin
+          tar -xzf apache-jena.tar.gz
+          ls -la apache-jena-4.8.0/bin
+
+      - name: Add Apache Jena to PATH
+        run: |
+          export PATH=$GITHUB_WORKSPACE/apache-jena-4.8.0/bin:$PATH
+          echo "Updated PATH: $PATH"
+
+      - name: Validate RDF
+        run: |
+          $GITHUB_WORKSPACE/apache-jena-4.8.0/bin/riot --validate vivo.owl > validation_report.txt || true
+          cat validation_report.txt
 
       # Validate vivo.owl with Apache Jena's riot
       - name: Validate vivo.owl
