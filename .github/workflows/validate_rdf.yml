@@ -16,13 +16,14 @@ jobs:
         uses: actions/checkout@v3
 
       # Install Apache Jena
-      - name: Install Apache Jena
+      - name: Install Apache Jena (latest)
         run: |
-          sudo apt-get update
-          sudo apt-get install -y openjdk-11-jre-headless wget
-          wget https://downloads.apache.org/jena/binaries/apache-jena-4.8.0.tar.gz
-          tar -xzf apache-jena-4.8.0.tar.gz
-          export PATH=$PATH:$PWD/apache-jena-4.8.0/bin
+         sudo apt-get update
+         sudo apt-get install -y openjdk-11-jre-headless wget
+         wget -O jena-latest.tar.gz https://downloads.apache.org/jena/binaries/apache-jena-latest.tar.gz
+         tar -xzf jena-latest.tar.gz
+         export PATH=$PATH:$PWD/apache-jena-*/bin
+
 
       # Validate vivo.owl with Apache Jena's riot
       - name: Validate vivo.owl
