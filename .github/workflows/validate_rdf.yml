@@ -1,0 +1,39 @@
+name: Validate vivo.owl
+
+on:
+  pull_request:
+    paths:
+      - 'vivo.owl'  # trigger if  vivo.owl is changed
+  workflow_dispatch: # manual trigger
+
+jobs:
+  validate-vivo-owl:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Install Apache Jena
+      - name: Install Apache Jena
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openjdk-11-jre-headless wget
+          wget https://dlcdn.apache.org/jena/binaries/apache-jena-4.8.0.tar.gz
+          tar -xzf apache-jena-4.8.0.tar.gz
+          export PATH=$PATH:$PWD/apache-jena-4.8.0/bin
+
+      # Validate vivo.owl with Apache Jena's riot
+      - name: Validate vivo.owl
+        id: validate
+        run: |
+          riot --validate vivo.owl > validation_report.txt || true
+
+      # Output validation report as a PR comment
+      - name: Post validation report to PR
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: Validation Report for vivo.owl
+          path: validation_report.txt
