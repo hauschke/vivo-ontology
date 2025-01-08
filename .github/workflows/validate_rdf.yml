@@ -24,6 +24,11 @@ jobs:
          tar -xzf apache-jena-5.2.0.tar.gz
          export PATH=$PATH:$PWD/apache-jena-*/bin
 
+      # Find riot
+      - name: Verify Apache Jena Installation
+        run: |
+         echo $PATH
+         ls -la $PWD/apache-jena-4.8.0/bin
 
       # Validate vivo.owl with Apache Jena's riot
       - name: Validate vivo.owl
