@@ -20,8 +20,8 @@ jobs:
         run: |
          sudo apt-get update
          sudo apt-get install -y openjdk-11-jre-headless wget
-         wget -O jena-latest.tar.gz https://downloads.apache.org/jena/binaries/apache-jena-latest.tar.gz
-         tar -xzf jena-latest.tar.gz
+         wget -O apache-jena-5.2.0.tar.gz https://dlcdn.apache.org/jena/binaries/apache-jena-5.2.0.tar.gz
+         tar -xzf apache-jena-5.2.0.tar.gz
          export PATH=$PATH:$PWD/apache-jena-*/bin
 
 
