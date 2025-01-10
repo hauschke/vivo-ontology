@@ -4,7 +4,6 @@ on:
   pull_request:
     paths:
       - 'vivo.owl'
-  workflow_dispatch:
 
 permissions:
   pull-requests: write
@@ -31,15 +30,10 @@ jobs:
           fi
           cat $GITHUB_WORKSPACE/validation_report.txt
 
-      - name: Debug validation report
-        run: |
-          echo "Checking if validation report exists:"
-          ls -la ${{ github.workspace }}
-          cat ${{ github.workspace }}/validation_report.txt || echo "File not found or empty."
-
       - name: Post validation report to PR
         if: github.event_name == 'pull_request'
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           header: Validation Report for vivo.owl
           path: ${{ github.workspace }}/validation_report.txt
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
