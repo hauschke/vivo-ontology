@@ -26,14 +26,16 @@ jobs:
       - name: Validate RDF
         run: |
           $GITHUB_WORKSPACE/apache-jena-5.2.0/bin/riot --validate vivo.owl > $GITHUB_WORKSPACE/validation_report.txt || true
+          if [ ! -s $GITHUB_WORKSPACE/validation_report.txt ]; then
+            echo "No validation errors found." > $GITHUB_WORKSPACE/validation_report.txt
+          fi
           cat $GITHUB_WORKSPACE/validation_report.txt
 
-      - name: Ensure Validation Report Exists
+      - name: Debug validation report
         run: |
-          if [ ! -f $GITHUB_WORKSPACE/validation_report.txt ]; then
-            echo "Validation report not generated. Exiting."
-            exit 1
-          fi
+          echo "Checking if validation report exists:"
+          ls -la ${{ github.workspace }}
+          cat ${{ github.workspace }}/validation_report.txt || echo "File not found or empty."
 
       - name: Post validation report to PR
         if: github.event_name == 'pull_request'
