@@ -16,7 +16,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#"
-     xmlns:doap="http://usefulinc.com/ns/doap#">	dasf
+     xmlns:doap="http://usefulinc.com/ns/doap#">
 
     <owl:Ontology rdf:about="http://vivoweb.org/ontology/core">
 
