@@ -20,7 +20,7 @@
 
     <owl:Ontology rdf:about="http://vivoweb.org/ontology/core">
 
-        <rdfs:label I am breaking this to test the validator action! xml:lang="en-US">VIVO Core Ontology</rdfs:label>
+        <rdfs:label I am breaking this to test the validator action xml:lang="en-US">VIVO Core Ontology</rdfs:label>
         <rdfs:label xml:lang="en-US">VIVO Core Ontology</rdfs:label>
         <owl:versionInfo>1.8.0</owl:versionInfo>
         <terms:license rdf:resource="https://spdx.org/licenses/Unlicense.html"/>
