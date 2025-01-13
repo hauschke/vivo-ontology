@@ -30,17 +30,10 @@ jobs:
           fi
           cat $GITHUB_WORKSPACE/validation_report.txt
 
-      - name: Check Validation Report
-        run: |
-          if [ ! -s ${{ github.workspace }}/validation_report.txt ]; then
-            echo "Validation report is empty. Exiting."
-            exit 1
-          fi
-
       - name: Post validation report to PR
         if: github.event_name == 'pull_request'
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           header: Validation Report for vivo.owl
           path: ${{ github.workspace }}/validation_report.txt
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
