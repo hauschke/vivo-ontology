@@ -36,4 +36,4 @@ jobs:
         with:
           header: Validation Report for vivo.owl
           path: ${{ github.workspace }}/validation_report.txt
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT }} # Use PAT for forked PRs
