@@ -3,46 +3,37 @@ name: Validate vivo.owl
 on:
   pull_request:
     paths:
-      - 'vivo.owl'  # Trigger only when vivo.owl is changed
-  workflow_dispatch: # Allow manual triggering
+      - 'vivo.owl'
+
+permissions:
+  pull-requests: write
+  contents: read
 
 jobs:
   validate-rdf:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # Download Apache Jena
       - name: Download Apache Jena
         run: |
           wget https://dlcdn.apache.org/jena/binaries/apache-jena-5.2.0.tar.gz -O apache-jena.tar.gz
-          ls -la apache-jena.tar.gz
-
-      # Extract Apache Jena
-      - name: Extract Apache Jena
-        run: |
           tar -xzf apache-jena.tar.gz
-          ls -la apache-jena-5.2.0/bin
 
-      # Add Apache Jena to PATH
-      - name: Add Apache Jena to PATH
-        run: |
-          export PATH=$GITHUB_WORKSPACE/apache-jena-5.2.0/bin:$PATH
-          echo "Updated PATH: $PATH"
-
-      # Validate vivo.owl
       - name: Validate RDF
         run: |
-          $GITHUB_WORKSPACE/apache-jena-5.2.0/bin/riot --validate vivo.owl > validation_report.txt || true
-          cat validation_report.txt
+          $GITHUB_WORKSPACE/apache-jena-5.2.0/bin/riot --validate vivo.owl > $GITHUB_WORKSPACE/validation_report.txt || true
+          if [ ! -s $GITHUB_WORKSPACE/validation_report.txt ]; then
+            echo "No validation errors found." > $GITHUB_WORKSPACE/validation_report.txt
+          fi
+          cat $GITHUB_WORKSPACE/validation_report.txt
 
-      # Post validation report to PR
       - name: Post validation report to PR
         if: github.event_name == 'pull_request'
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           header: Validation Report for vivo.owl
-          path: validation_report.txt
+          path: ${{ github.workspace }}/validation_report.txt
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
