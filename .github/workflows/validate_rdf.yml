@@ -1,12 +1,12 @@
 name: Validate vivo.owl
 
 on:
-  pull_request:
+  push:
     paths:
-      - 'vivo.owl'
+      - 'vivo.owl'  # Trigger only when vivo.owl is modified
+  workflow_dispatch: # Allow manual triggering
 
 permissions:
-  pull-requests: write
   contents: read
 
 jobs:
@@ -30,10 +30,8 @@ jobs:
           fi
           cat $GITHUB_WORKSPACE/validation_report.txt
 
-      - name: Post validation report to PR
-        if: github.event_name == 'pull_request'
-        uses: marocchino/sticky-pull-request-comment@v2
+      - name: Save validation report
+        uses: actions/upload-artifact@v3
         with:
-          header: Validation Report for vivo.owl
+          name: validation-report
           path: ${{ github.workspace }}/validation_report.txt
-          GITHUB_TOKEN: ${{ secrets.PAT }} # Use PAT for forked PRs
