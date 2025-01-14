@@ -1,12 +1,13 @@
 name: Validate vivo.owl
 
 on:
-  push:
+  pull_request:
     paths:
-      - 'vivo.owl'  # Trigger only when vivo.owl is modified
+      - 'vivo.owl'  # Trigger only when vivo.owl is changed
   workflow_dispatch: # Allow manual triggering
 
 permissions:
+  pull-requests: write
   contents: read
 
 jobs:
@@ -14,14 +15,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Download Apache Jena
       - name: Download Apache Jena
         run: |
           wget https://dlcdn.apache.org/jena/binaries/apache-jena-5.2.0.tar.gz -O apache-jena.tar.gz
           tar -xzf apache-jena.tar.gz
 
+      # Validate vivo.owl
       - name: Validate RDF
         run: |
           $GITHUB_WORKSPACE/apache-jena-5.2.0/bin/riot --validate vivo.owl > $GITHUB_WORKSPACE/validation_report.txt || true
@@ -30,8 +34,11 @@ jobs:
           fi
           cat $GITHUB_WORKSPACE/validation_report.txt
 
-      - name: Save validation report
-        uses: actions/upload-artifact@v3
+      # Post validation report to PR
+      - name: Post validation report to PR
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
         with:
-          name: validation-report
+          header: Validation Report for vivo.owl
           path: ${{ github.workspace }}/validation_report.txt
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
