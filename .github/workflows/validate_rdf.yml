@@ -8,7 +8,7 @@ on:
 
 permissions:
   contents: read
-  pull-requests: write  # Ensure workflows have write permissions for PRs
+  pull-requests: write  # Allow writing comments to pull requests
 
 jobs:
   validate-rdf:
@@ -41,4 +41,5 @@ jobs:
         with:
           header: Validation Report for vivo.owl
           path: ${{ github.workspace }}/validation_report.txt
-          GITHUB_TOKEN: ${{ secrets.PAT }}  # Use a PAT instead of GITHUB_TOKEN
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Ensure the token is passed as an environment variable
