@@ -1,0 +1,34 @@
+name: Update dc:modified Timestamp
+
+on:
+  push:
+    branches:
+      - main  # Change this if your default branch is different
+
+jobs:
+  update-timestamp:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get current UTC timestamp
+        id: date
+        run: echo "datetime=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" >> $GITHUB_ENV
+
+      - name: Update vivo.owl with new timestamp
+        run: |
+          sed -i 's|<dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">.*</dc:modified>|<dc:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">'$datetime'</dc:modified>|' vivo.owl
+
+      - name: Commit and push changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+          else
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add vivo.owl
+            git commit -m "Update dc:modified timestamp to $datetime"
+            git push
+          fi
