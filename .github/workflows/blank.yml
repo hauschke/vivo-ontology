@@ -6,6 +6,6 @@ jobs:
       - name: convert
         uses: soilwise-he/widoco-action@v0.3
         with:
-          file-input: '/github/workspace/example.ttl'
-          folder-output: '/github/workspace/public'
+          file-input: '/github/workspace/vivo.owl'
+          folder-output: '/github/workspace/vivo.owl'
           options: '-excludeProvenance -getOntologyMetadata'
