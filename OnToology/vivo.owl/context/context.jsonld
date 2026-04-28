@@ -1,0 +1,2873 @@
+{
+  "@context" : {
+    "ERO_0001520" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001520",
+      "@type" : "@id"
+    },
+    "F1000Link" : {
+      "@id" : "http://vivoweb.org/ontology/core#F1000Link"
+    },
+    "OBI_0001554" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0001554"
+    },
+    "nameCurrencyZH" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameCurrencyZH"
+    },
+    "nameOfficialIT" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameOfficialIT"
+    },
+    "sound" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#sound",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "ERO_0000005" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000005"
+    },
+    "University" : {
+      "@id" : "http://vivoweb.org/ontology/core#University"
+    },
+    "OBI_0100026" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0100026"
+    },
+    "geographicFocus" : {
+      "@id" : "http://vivoweb.org/ontology/core#geographicFocus",
+      "@type" : "@id"
+    },
+    "nameShortEN" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameShortEN"
+    },
+    "grantDirectCosts" : {
+      "@id" : "http://vivoweb.org/ontology/core#grantDirectCosts"
+    },
+    "ARG_2000009" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000009"
+    },
+    "ERO_0000396" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000396"
+    },
+    "assigns" : {
+      "@id" : "http://vivoweb.org/ontology/core#assigns",
+      "@type" : "@id"
+    },
+    "hasSound" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasSound",
+      "@type" : "@id"
+    },
+    "Consortium" : {
+      "@id" : "http://vivoweb.org/ontology/core#Consortium"
+    },
+    "nameCurrencyIT" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameCurrencyIT"
+    },
+    "abstract" : {
+      "@id" : "http://purl.org/ontology/bibo/abstract"
+    },
+    "reproduces" : {
+      "@id" : "http://vivoweb.org/ontology/core#reproduces",
+      "@type" : "@id"
+    },
+    "BFO_0000019" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000019"
+    },
+    "Address" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Address"
+    },
+    "countryAreaUnit" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#countryAreaUnit"
+    },
+    "nameCurrencyES" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameCurrencyES"
+    },
+    "calendarLink" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#calendarLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "hasTitle" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasTitle",
+      "@type" : "@id"
+    },
+    "URL" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#URL"
+    },
+    "majorField" : {
+      "@id" : "http://vivoweb.org/ontology/core#majorField"
+    },
+    "hasEmail" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasEmail",
+      "@type" : "@id"
+    },
+    "isAdministeredBy" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#isAdministeredBy",
+      "@type" : "@id"
+    },
+    "ARG_0000197" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_0000197",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ResearchOrganization" : {
+      "@id" : "http://vivoweb.org/ontology/core#ResearchOrganization"
+    },
+    "Single_group_study" : {
+      "@id" : "http://purl.org/net/OCRe/study_design.owl#Single_group_study"
+    },
+    "exampleAnnot" : {
+      "@id" : "http://vitro.mannlib.cornell.edu/ns/vitro/0.7#exampleAnnot"
+    },
+    "hasCalendarRequest" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasCalendarRequest",
+      "@type" : "@id"
+    },
+    "Photo" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Photo"
+    },
+    "courseCredits" : {
+      "@id" : "http://vivoweb.org/ontology/core#courseCredits"
+    },
+    "isInGroup" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#isInGroup",
+      "@type" : "@id"
+    },
+    "scopeNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote"
+    },
+    "hasCode" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasCode"
+    },
+    "role" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#role",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isSuccessorOf" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#isSuccessorOf",
+      "@type" : "@id"
+    },
+    "Nickname" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Nickname"
+    },
+    "nameListES" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameListES"
+    },
+    "NonFacultyAcademic" : {
+      "@id" : "http://vivoweb.org/ontology/core#NonFacultyAcademic"
+    },
+    "PresenterRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#PresenterRole"
+    },
+    "ARG_0000172" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_0000172",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Magazine" : {
+      "@id" : "http://purl.org/ontology/bibo/Magazine"
+    },
+    "publisherOf" : {
+      "@id" : "http://vivoweb.org/ontology/core#publisherOf",
+      "@type" : "@id"
+    },
+    "grantSubcontractedThrough" : {
+      "@id" : "http://vivoweb.org/ontology/core#grantSubcontractedThrough",
+      "@type" : "@id"
+    },
+    "ERO_0000424" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000424",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "pmcid" : {
+      "@id" : "http://vivoweb.org/ontology/core#pmcid"
+    },
+    "HDIYear" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#HDIYear"
+    },
+    "distributes" : {
+      "@id" : "http://vivoweb.org/ontology/core#distributes",
+      "@type" : "@id"
+    },
+    "ReferenceSource" : {
+      "@id" : "http://purl.org/ontology/bibo/ReferenceSource"
+    },
+    "supportedBy" : {
+      "@id" : "http://vivoweb.org/ontology/core#supportedBy",
+      "@type" : "@id"
+    },
+    "codeISO3" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#codeISO3"
+    },
+    "ERO_0000071" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000071"
+    },
+    "term_status" : {
+      "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"
+    },
+    "nameCurrencyEN" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameCurrencyEN"
+    },
+    "nationalityEN" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nationalityEN"
+    },
+    "Communication" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Communication"
+    },
+    "nameOfficialEN" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameOfficialEN"
+    },
+    "DateTimeValue" : {
+      "@id" : "http://vivoweb.org/ontology/core#DateTimeValue"
+    },
+    "Sibling" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Sibling"
+    },
+    "ARG_2000029" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000029",
+      "@type" : "@id"
+    },
+    "Parent" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Parent"
+    },
+    "DocumentPart" : {
+      "@id" : "http://purl.org/ontology/bibo/DocumentPart"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "EditedBook" : {
+      "@id" : "http://purl.org/ontology/bibo/EditedBook"
+    },
+    "Webpage" : {
+      "@id" : "http://purl.org/ontology/bibo/Webpage"
+    },
+    "organizationalUnitName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#organizationalUnitName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "confirmedOrcidId" : {
+      "@id" : "http://vivoweb.org/ontology/core#confirmedOrcidId",
+      "@type" : "@id"
+    },
+    "localAwardId" : {
+      "@id" : "http://vivoweb.org/ontology/core#localAwardId"
+    },
+    "degree" : {
+      "@id" : "http://purl.org/ontology/bibo/degree",
+      "@type" : "@id"
+    },
+    "DeprecatedProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#DeprecatedProperty",
+      "@type" : "@id"
+    },
+    "ERO_0000050" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000050",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "pageStart" : {
+      "@id" : "http://purl.org/ontology/bibo/pageStart"
+    },
+    "sponsoredBy" : {
+      "@id" : "http://vivoweb.org/ontology/core#sponsoredBy",
+      "@type" : "@id"
+    },
+    "ERO_0000777" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000777"
+    },
+    "Review" : {
+      "@id" : "http://vivoweb.org/ontology/core#Review"
+    },
+    "Coresident" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Coresident"
+    },
+    "hasMaxLatitude" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasMaxLatitude"
+    },
+    "OBI_0000299" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000299",
+      "@type" : "@id"
+    },
+    "Pager" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Pager"
+    },
+    "ERO_0000918" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000918",
+      "@type" : "@id"
+    },
+    "OBI_0000417" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000417",
+      "@type" : "@id"
+    },
+    "ERO_0000776" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000776"
+    },
+    "governingAuthorityFor" : {
+      "@id" : "http://vivoweb.org/ontology/core#governingAuthorityFor",
+      "@type" : "@id"
+    },
+    "IAO_0000231" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000231"
+    },
+    "Dataset" : {
+      "@id" : "http://vivoweb.org/ontology/core#Dataset"
+    },
+    "nameListFR" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameListFR"
+    },
+    "Emergency" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Emergency"
+    },
+    "RO_0000053" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000053",
+      "@type" : "@id"
+    },
+    "termLabel" : {
+      "@id" : "http://vivoweb.org/ontology/core#termLabel"
+    },
+    "PrincipalInvestigatorRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#PrincipalInvestigatorRole"
+    },
+    "Coworker" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Coworker"
+    },
+    "ERO_0000785" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000785"
+    },
+    "subjectAreaOf" : {
+      "@id" : "http://vivoweb.org/ontology/core#subjectAreaOf",
+      "@type" : "@id"
+    },
+    "Relationship" : {
+      "@id" : "http://vivoweb.org/ontology/core#Relationship"
+    },
+    "contributingRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#contributingRole",
+      "@type" : "@id"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "Email" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Email"
+    },
+    "url" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#url",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "AudioVisualDocument" : {
+      "@id" : "http://purl.org/ontology/bibo/AudioVisualDocument"
+    },
+    "ARG_2000021" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000021"
+    },
+    "GDP" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#GDP"
+    },
+    "hasAssociatedConcept" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasAssociatedConcept",
+      "@type" : "@id"
+    },
+    "Country" : {
+      "@id" : "http://vivoweb.org/ontology/core#Country"
+    },
+    "court" : {
+      "@id" : "http://purl.org/ontology/bibo/court",
+      "@type" : "@id"
+    },
+    "Identification" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Identification"
+    },
+    "OBI_0000011" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000011"
+    },
+    "BFO_0000031" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000031"
+    },
+    "ERO_0000045" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000045",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "agriculturalAreaNotes" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#agriculturalAreaNotes"
+    },
+    "IAO_0000109" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000109"
+    },
+    "Comment" : {
+      "@id" : "http://purl.org/spar/fabio/Comment"
+    },
+    "country" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#country",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "pageEnd" : {
+      "@id" : "http://purl.org/ontology/bibo/pageEnd"
+    },
+    "Translation" : {
+      "@id" : "http://vivoweb.org/ontology/core#Translation"
+    },
+    "AdvisingRelationship" : {
+      "@id" : "http://vivoweb.org/ontology/core#AdvisingRelationship"
+    },
+    "nameOfficialFR" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameOfficialFR"
+    },
+    "GlobalCitationCount" : {
+      "@id" : "http://purl.org/spar/c4o/GlobalCitationCount"
+    },
+    "calendarBusy" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#calendarBusy",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "Type" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Type"
+    },
+    "Crush" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Crush"
+    },
+    "TelephoneType" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#TelephoneType"
+    },
+    "IAO_0000117" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000117"
+    },
+    "ARG_2000011" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000011"
+    },
+    "ConferencePoster" : {
+      "@id" : "http://vivoweb.org/ontology/core#ConferencePoster"
+    },
+    "economic_region" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#economic_region"
+    },
+    "Organization" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Organization"
+    },
+    "Category" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Category"
+    },
+    "ERO_0000398" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000398",
+      "@type" : "@id"
+    },
+    "ERO_0001261" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001261"
+    },
+    "ERO_0000224" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000224"
+    },
+    "ERO_0001257" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001257"
+    },
+    "Equipment" : {
+      "@id" : "http://vivoweb.org/ontology/core#Equipment"
+    },
+    "nameShortAR" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameShortAR"
+    },
+    "landAreaYear" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#landAreaYear"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "BFO_0000008" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000008"
+    },
+    "codeAGROVOC" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#codeAGROVOC"
+    },
+    "hasMinLongitude" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasMinLongitude"
+    },
+    "openAlexId" : {
+      "@id" : "http://vivoweb.org/ontology/core#openAlexId"
+    },
+    "IAO_0000142" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000142",
+      "@type" : "@id"
+    },
+    "OCRE100038" : {
+      "@id" : "http://purl.org/net/OCRe/study_design.owl#OCRE100038"
+    },
+    "IAO_0000003" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000003"
+    },
+    "AcademicTerm" : {
+      "@id" : "http://vivoweb.org/ontology/core#AcademicTerm"
+    },
+    "ERO_0000004" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000004"
+    },
+    "nctId" : {
+      "@id" : "http://vivoweb.org/ontology/scientific-research#nctId"
+    },
+    "Me" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Me"
+    },
+    "countryAreaTotal" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#countryAreaTotal"
+    },
+    "issue" : {
+      "@id" : "http://purl.org/ontology/bibo/issue"
+    },
+    "Center" : {
+      "@id" : "http://vivoweb.org/ontology/core#Center"
+    },
+    "hasNote" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasNote",
+      "@type" : "@id"
+    },
+    "Program" : {
+      "@id" : "http://vivoweb.org/ontology/core#Program"
+    },
+    "IAO_0000221" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000221",
+      "@type" : "@id"
+    },
+    "ERO_0000481" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000481",
+      "@type" : "@id"
+    },
+    "Room" : {
+      "@id" : "http://vivoweb.org/ontology/core#Room"
+    },
+    "sourceModified" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#sourceModified"
+    },
+    "OBI_0000293" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "@type" : "@id"
+    },
+    "Credential" : {
+      "@id" : "http://vivoweb.org/ontology/core#Credential"
+    },
+    "Proceedings" : {
+      "@id" : "http://purl.org/ontology/bibo/Proceedings"
+    },
+    "Licensure" : {
+      "@id" : "http://vivoweb.org/ontology/core#Licensure"
+    },
+    "IssuedCredential" : {
+      "@id" : "http://vivoweb.org/ontology/core#IssuedCredential"
+    },
+    "hasCalendarLink" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasCalendarLink",
+      "@type" : "@id"
+    },
+    "instantMessage" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#instantMessage",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "nameShortIT" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameShortIT"
+    },
+    "minCardinality" : {
+      "@id" : "http://www.w3.org/2002/07/owl#minCardinality"
+    },
+    "Speech" : {
+      "@id" : "http://vivoweb.org/ontology/core#Speech"
+    },
+    "Committee" : {
+      "@id" : "http://vivoweb.org/ontology/core#Committee"
+    },
+    "stubObjectPropertyAnnot" : {
+      "@id" : "http://vitro.mannlib.cornell.edu/ns/vitro/0.7#stubObjectPropertyAnnot"
+    },
+    "ConferencePaper" : {
+      "@id" : "http://vivoweb.org/ontology/core#ConferencePaper"
+    },
+    "EmeritusProfessor" : {
+      "@id" : "http://vivoweb.org/ontology/core#EmeritusProfessor"
+    },
+    "locator" : {
+      "@id" : "http://purl.org/ontology/bibo/locator"
+    },
+    "FundingOrganization" : {
+      "@id" : "http://vivoweb.org/ontology/core#FundingOrganization"
+    },
+    "hasName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasName",
+      "@type" : "@id"
+    },
+    "Note" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Note"
+    },
+    "IAO_0000013" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000013"
+    },
+    "ERO_0000225" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000225"
+    },
+    "ERO_0000015" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000015"
+    },
+    "SubnationalRegion" : {
+      "@id" : "http://vivoweb.org/ontology/core#SubnationalRegion"
+    },
+    "sici" : {
+      "@id" : "http://purl.org/ontology/bibo/sici"
+    },
+    "Colleague" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Colleague"
+    },
+    "patentNumber" : {
+      "@id" : "http://vivoweb.org/ontology/core#patentNumber"
+    },
+    "licenseNumber" : {
+      "@id" : "http://vivoweb.org/ontology/core#licenseNumber"
+    },
+    "nationalityZH" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nationalityZH"
+    },
+    "totalAwardAmount" : {
+      "@id" : "http://vivoweb.org/ontology/core#totalAwardAmount"
+    },
+    "Publisher" : {
+      "@id" : "http://vivoweb.org/ontology/core#Publisher"
+    },
+    "area" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#area"
+    },
+    "Video" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Video"
+    },
+    "Institute" : {
+      "@id" : "http://vivoweb.org/ontology/core#Institute"
+    },
+    "roleContributesTo" : {
+      "@id" : "http://vivoweb.org/ontology/core#roleContributesTo",
+      "@type" : "@id"
+    },
+    "BFO_0000148" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000148"
+    },
+    "Workshop" : {
+      "@id" : "http://purl.org/ontology/bibo/Workshop"
+    },
+    "nameOfficialES" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameOfficialES"
+    },
+    "Phase4ClinicalTrial" : {
+      "@id" : "http://vivoweb.org/ontology/scientific-research#Phase4ClinicalTrial"
+    },
+    "ARG_2000022" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000022"
+    },
+    "ARG_2000399" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000399",
+      "@type" : "@id"
+    },
+    "Phase1ClinicalTrial" : {
+      "@id" : "http://vivoweb.org/ontology/scientific-research#Phase1ClinicalTrial"
+    },
+    "PresentingProcess" : {
+      "@id" : "http://vivoweb.org/ontology/core#PresentingProcess"
+    },
+    "InvitedTalk" : {
+      "@id" : "http://vivoweb.org/ontology/core#InvitedTalk"
+    },
+    "ERO_0000020" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000020"
+    },
+    "Competition" : {
+      "@id" : "http://vivoweb.org/ontology/core#Competition"
+    },
+    "CoreLaboratory" : {
+      "@id" : "http://vivoweb.org/ontology/core#CoreLaboratory"
+    },
+    "RO_0001025" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0001025",
+      "@type" : "@id"
+    },
+    "hasPublicationVenue" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasPublicationVenue",
+      "@type" : "@id"
+    },
+    "group" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#group"
+    },
+    "Course" : {
+      "@id" : "http://vivoweb.org/ontology/core#Course"
+    },
+    "hasValue" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasValue"
+    },
+    "Newsletter" : {
+      "@id" : "http://vivoweb.org/ontology/core#Newsletter"
+    },
+    "TeacherRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#TeacherRole"
+    },
+    "Map" : {
+      "@id" : "http://purl.org/ontology/bibo/Map"
+    },
+    "codeGAUL" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#codeGAUL"
+    },
+    "PeerReviewerRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#PeerReviewerRole"
+    },
+    "nameListRU" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameListRU"
+    },
+    "Department" : {
+      "@id" : "http://vivoweb.org/ontology/core#Department"
+    },
+    "departmentOrSchool" : {
+      "@id" : "http://vivoweb.org/ontology/core#departmentOrSchool"
+    },
+    "ERO_0000046" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000046",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Geo" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Geo"
+    },
+    "eissn" : {
+      "@id" : "http://purl.org/ontology/bibo/eissn"
+    },
+    "Title" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Title"
+    },
+    "BFO_0000020" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000020"
+    },
+    "HDIUnit" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#HDIUnit"
+    },
+    "researchOverview" : {
+      "@id" : "http://vivoweb.org/ontology/core#researchOverview"
+    },
+    "PrimaryPosition" : {
+      "@id" : "http://vivoweb.org/ontology/core#PrimaryPosition"
+    },
+    "ERO_0000391" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000391"
+    },
+    "reproducedIn" : {
+      "@id" : "http://purl.org/ontology/bibo/reproducedIn",
+      "@type" : "@id"
+    },
+    "BFO_0000141" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000141"
+    },
+    "RO_0001015" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0001015",
+      "@type" : "@id"
+    },
+    "honorificPrefix" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#honorificPrefix",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "nameShortZH" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameShortZH"
+    },
+    "ERO_0000393" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000393"
+    },
+    "ERO_0001262" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001262"
+    },
+    "populationTotal" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#populationTotal"
+    },
+    "IAO_0000033" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000033"
+    },
+    "hasAddress" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasAddress",
+      "@type" : "@id"
+    },
+    "hasCurrency" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasCurrency"
+    },
+    "ERO_0001258" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001258"
+    },
+    "ERO_0000919" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000919",
+      "@type" : "@id"
+    },
+    "ERO_0000390" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000390",
+      "@type" : "@id"
+    },
+    "IAO_0000602" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000602"
+    },
+    "director" : {
+      "@id" : "http://purl.org/ontology/bibo/director",
+      "@type" : "@id"
+    },
+    "issuer" : {
+      "@id" : "http://purl.org/ontology/bibo/issuer",
+      "@type" : "@id"
+    },
+    "RO_0003000" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0003000",
+      "@type" : "@id"
+    },
+    "ERO_0000044" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000044",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "distributesFundingFrom" : {
+      "@id" : "http://vivoweb.org/ontology/core#distributesFundingFrom",
+      "@type" : "@id"
+    },
+    "IAO_0000112" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000112"
+    },
+    "BFO_0000001" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000001"
+    },
+    "ERO_0000014" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000014"
+    },
+    "hasTelephone" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasTelephone",
+      "@type" : "@id"
+    },
+    "doi" : {
+      "@id" : "http://purl.org/ontology/bibo/doi"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type" : "@id"
+    },
+    "hasOrganizationName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasOrganizationName",
+      "@type" : "@id"
+    },
+    "key" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#key",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "TimeZone" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#TimeZone"
+    },
+    "Sound" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Sound"
+    },
+    "AttendingProcess" : {
+      "@id" : "http://vivoweb.org/ontology/core#AttendingProcess"
+    },
+    "assigneeFor" : {
+      "@id" : "http://vivoweb.org/ontology/core#assigneeFor",
+      "@type" : "@id"
+    },
+    "Screenplay" : {
+      "@id" : "http://vivoweb.org/ontology/core#Screenplay"
+    },
+    "BFO_0000055" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000055",
+      "@type" : "@id"
+    },
+    "translatorOf" : {
+      "@id" : "http://vivoweb.org/ontology/core#translatorOf",
+      "@type" : "@id"
+    },
+    "ERO_0000031" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000031",
+      "@type" : "@id"
+    },
+    "reviewOf" : {
+      "@id" : "http://purl.org/ontology/bibo/reviewOf",
+      "@type" : "@id"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "recipient" : {
+      "@id" : "http://purl.org/ontology/bibo/recipient",
+      "@type" : "@id"
+    },
+    "NonAcademic" : {
+      "@id" : "http://vivoweb.org/ontology/core#NonAcademic"
+    },
+    "uri" : {
+      "@id" : "http://purl.org/ontology/bibo/uri"
+    },
+    "hasListName" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasListName"
+    },
+    "OrganizerRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#OrganizerRole"
+    },
+    "reversedBy" : {
+      "@id" : "http://purl.org/ontology/bibo/reversedBy",
+      "@type" : "@id"
+    },
+    "Bill" : {
+      "@id" : "http://purl.org/ontology/bibo/Bill"
+    },
+    "affirmedBy" : {
+      "@id" : "http://purl.org/ontology/bibo/affirmedBy",
+      "@type" : "@id"
+    },
+    "Contract" : {
+      "@id" : "http://vivoweb.org/ontology/core#Contract"
+    },
+    "related" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#related",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "familyName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#familyName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ERO_0000789" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000789"
+    },
+    "productId" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#productId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasRelated" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasRelated",
+      "@type" : "@id"
+    },
+    "hasFundingVehicle" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasFundingVehicle",
+      "@type" : "@id"
+    },
+    "presents" : {
+      "@id" : "http://purl.org/ontology/bibo/presents",
+      "@type" : "@id"
+    },
+    "OrganizationName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#OrganizationName"
+    },
+    "MemberRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#MemberRole"
+    },
+    "Location" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Location"
+    },
+    "hasGlobalCitationFrequency" : {
+      "@id" : "http://purl.org/spar/c4o/hasGlobalCitationFrequency",
+      "@type" : "@id"
+    },
+    "hideFromDisplay" : {
+      "@id" : "http://vivoweb.org/ontology/core#hideFromDisplay",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "ERO_0000392" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000392"
+    },
+    "ClinicalOrganization" : {
+      "@id" : "http://vivoweb.org/ontology/core#ClinicalOrganization"
+    },
+    "facilityFor" : {
+      "@id" : "http://vivoweb.org/ontology/core#facilityFor",
+      "@type" : "@id"
+    },
+    "IAO_0000300" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000300"
+    },
+    "ERO_0001254" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001254"
+    },
+    "Muse" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Muse"
+    },
+    "codeFAOTERM" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#codeFAOTERM"
+    },
+    "RO_0002233" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002233",
+      "@type" : "@id"
+    },
+    "codeISO2" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#codeISO2"
+    },
+    "LegalCaseDocument" : {
+      "@id" : "http://purl.org/ontology/bibo/LegalCaseDocument"
+    },
+    "timeZone" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#timeZone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "interviewee" : {
+      "@id" : "http://purl.org/ontology/bibo/interviewee",
+      "@type" : "@id"
+    },
+    "EditorialArticle" : {
+      "@id" : "http://vivoweb.org/ontology/core#EditorialArticle"
+    },
+    "transcriptOf" : {
+      "@id" : "http://purl.org/ontology/bibo/transcriptOf",
+      "@type" : "@id"
+    },
+    "orcidId" : {
+      "@id" : "http://vivoweb.org/ontology/core#orcidId",
+      "@type" : "@id"
+    },
+    "interviewer" : {
+      "@id" : "http://purl.org/ontology/bibo/interviewer",
+      "@type" : "@id"
+    },
+    "repository" : {
+      "@id" : "http://usefulinc.com/ns/doap#repository"
+    },
+    "IAO_0000417" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000417",
+      "@type" : "@id"
+    },
+    "BFO_0000006" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000006"
+    },
+    "Chapter" : {
+      "@id" : "http://purl.org/ontology/bibo/Chapter"
+    },
+    "LegalDocument" : {
+      "@id" : "http://purl.org/ontology/bibo/LegalDocument"
+    },
+    "ARG_0000015" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_0000015"
+    },
+    "OBI_0000066" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000066"
+    },
+    "hasCalenderBusy" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasCalenderBusy",
+      "@type" : "@id"
+    },
+    "OBI_0000571" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000571"
+    },
+    "citedBy" : {
+      "@id" : "http://purl.org/ontology/bibo/citedBy",
+      "@type" : "@id"
+    },
+    "ERO_0001259" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001259"
+    },
+    "ERO_0000784" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000784"
+    },
+    "Neighbor" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Neighbor"
+    },
+    "ERO_0000790" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000790"
+    },
+    "OBI_0500000" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0500000"
+    },
+    "Performance" : {
+      "@id" : "http://purl.org/ontology/bibo/Performance"
+    },
+    "AcademicArticle" : {
+      "@id" : "http://purl.org/ontology/bibo/AcademicArticle"
+    },
+    "publicationVenueFor" : {
+      "@id" : "http://vivoweb.org/ontology/core#publicationVenueFor",
+      "@type" : "@id"
+    },
+    "gender" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#gender",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "ERO_0000016" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000016"
+    },
+    "CalendarLink" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#CalendarLink"
+    },
+    "dateTime" : {
+      "@id" : "http://vivoweb.org/ontology/core#dateTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "codeDBPediaID" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#codeDBPediaID"
+    },
+    "ERO_0000783" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000783"
+    },
+    "email" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#email",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ERO_0000054" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000054",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Event" : {
+      "@id" : "http://purl.org/NET/c4dm/event.owl#Event"
+    },
+    "ARG_2000377" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000377"
+    },
+    "ClinicalRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#ClinicalRole"
+    },
+    "Telephone" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Telephone"
+    },
+    "ERO_0000779" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000779"
+    },
+    "landArea" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#landArea"
+    },
+    "AdvisingProcess" : {
+      "@id" : "http://vivoweb.org/ontology/core#AdvisingProcess"
+    },
+    "AdviseeRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#AdviseeRole"
+    },
+    "CurationProcess" : {
+      "@id" : "http://vivoweb.org/ontology/core#CurationProcess"
+    },
+    "nationalityFR" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nationalityFR"
+    },
+    "revision" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#revision",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Gender" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Gender"
+    },
+    "RO_0001019" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0001019",
+      "@type" : "@id"
+    },
+    "special_group" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#special_group"
+    },
+    "NonAcademicPosition" : {
+      "@id" : "http://vivoweb.org/ontology/core#NonAcademicPosition"
+    },
+    "CollectedDocument" : {
+      "@id" : "http://purl.org/ontology/bibo/CollectedDocument"
+    },
+    "hasTranslation" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasTranslation",
+      "@type" : "@id"
+    },
+    "uid" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#uid",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "hasURL" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasURL",
+      "@type" : "@id"
+    },
+    "AdvisorRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#AdvisorRole"
+    },
+    "Person" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Person"
+    },
+    "Editorship" : {
+      "@id" : "http://vivoweb.org/ontology/core#Editorship"
+    },
+    "rank" : {
+      "@id" : "http://vivoweb.org/ontology/core#rank",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Contact" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Contact"
+    },
+    "sponsorAwardId" : {
+      "@id" : "http://vivoweb.org/ontology/core#sponsorAwardId"
+    },
+    "Award" : {
+      "@id" : "http://vivoweb.org/ontology/core#Award"
+    },
+    "EducationalProcess" : {
+      "@id" : "http://vivoweb.org/ontology/core#EducationalProcess"
+    },
+    "IAO_0000118" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000118"
+    },
+    "presentedAt" : {
+      "@id" : "http://purl.org/ontology/bibo/presentedAt",
+      "@type" : "@id"
+    },
+    "note" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#note",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "DateTimeInterval" : {
+      "@id" : "http://vivoweb.org/ontology/core#DateTimeInterval"
+    },
+    "offeredBy" : {
+      "@id" : "http://vivoweb.org/ontology/core#offeredBy",
+      "@type" : "@id"
+    },
+    "dateTimePrecision" : {
+      "@id" : "http://vivoweb.org/ontology/core#dateTimePrecision",
+      "@type" : "@id"
+    },
+    "Score" : {
+      "@id" : "http://vivoweb.org/ontology/core#Score"
+    },
+    "freetextKeyword" : {
+      "@id" : "http://vivoweb.org/ontology/core#freetextKeyword"
+    },
+    "Unknown" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Unknown"
+    },
+    "BFO_0000040" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    },
+    "College" : {
+      "@id" : "http://vivoweb.org/ontology/core#College"
+    },
+    "termType" : {
+      "@id" : "http://vivoweb.org/ontology/core#termType"
+    },
+    "nameShortFR" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameShortFR"
+    },
+    "AdministratorRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#AdministratorRole"
+    },
+    "Date" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Date"
+    },
+    "RO_0002220" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002220",
+      "@type" : "@id"
+    },
+    "PostdocPosition" : {
+      "@id" : "http://vivoweb.org/ontology/core#PostdocPosition"
+    },
+    "middleName" : {
+      "@id" : "http://vivoweb.org/ontology/core#middleName"
+    },
+    "Patent" : {
+      "@id" : "http://purl.org/ontology/bibo/Patent"
+    },
+    "OBI_0000086" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000086"
+    },
+    "codeUN" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#codeUN"
+    },
+    "ERO_0001256" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001256"
+    },
+    "None" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#None"
+    },
+    "affiliatedOrganization" : {
+      "@id" : "http://vivoweb.org/ontology/core#affiliatedOrganization",
+      "@type" : "@id"
+    },
+    "Explanatory" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Explanatory"
+    },
+    "BFO_0000051" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "@type" : "@id"
+    },
+    "Report" : {
+      "@id" : "http://purl.org/ontology/bibo/Report"
+    },
+    "nameCurrencyRU" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameCurrencyRU"
+    },
+    "RelatedType" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#RelatedType"
+    },
+    "researcherId" : {
+      "@id" : "http://vivoweb.org/ontology/core#researcherId"
+    },
+    "researchAreaOf" : {
+      "@id" : "http://vivoweb.org/ontology/core#researchAreaOf",
+      "@type" : "@id"
+    },
+    "IAO_0000114" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000114"
+    },
+    "Key" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Key"
+    },
+    "RO_0000052" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000052",
+      "@type" : "@id"
+    },
+    "Book" : {
+      "@id" : "http://purl.org/ontology/bibo/Book"
+    },
+    "hasTimeZone" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasTimeZone",
+      "@type" : "@id"
+    },
+    "Agent" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Agent"
+    },
+    "eanucc13" : {
+      "@id" : "http://purl.org/ontology/bibo/eanucc13"
+    },
+    "OutreachProviderRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#OutreachProviderRole"
+    },
+    "FacultyPosition" : {
+      "@id" : "http://vivoweb.org/ontology/core#FacultyPosition"
+    },
+    "ARG_2000008" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000008"
+    },
+    "SynonymType" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#SynonymType"
+    },
+    "hasMaxLongitude" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasMaxLongitude"
+    },
+    "hasNationality" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasNationality"
+    },
+    "ERO_0000007" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000007"
+    },
+    "landAreaNotes" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#landAreaNotes"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "GDPNotes" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#GDPNotes"
+    },
+    "ERO_0001255" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001255"
+    },
+    "Legislation" : {
+      "@id" : "http://purl.org/ontology/bibo/Legislation"
+    },
+    "reportId" : {
+      "@id" : "http://vivoweb.org/ontology/core#reportId"
+    },
+    "DbXref" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#DbXref"
+    },
+    "givenName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#givenName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Slide" : {
+      "@id" : "http://purl.org/ontology/bibo/Slide"
+    },
+    "landAreaUnit" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#landAreaUnit"
+    },
+    "IAO_0000136" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000136",
+      "@type" : "@id"
+    },
+    "postalCode" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#postalCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "geo" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#geo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "populationYear" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#populationYear"
+    },
+    "ConferenceSeries" : {
+      "@id" : "http://vivoweb.org/ontology/core#ConferenceSeries"
+    },
+    "nameShortRU" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameShortRU"
+    },
+    "prefixName" : {
+      "@id" : "http://purl.org/ontology/bibo/prefixName"
+    },
+    "Individual" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Individual"
+    },
+    "Role" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Role"
+    },
+    "GDPYear" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#GDPYear"
+    },
+    "IAO_0000232" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000232"
+    },
+    "ERO_0001263" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001263"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "geographical_region" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#geographical_region"
+    },
+    "hasOfficialName" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasOfficialName"
+    },
+    "Building" : {
+      "@id" : "http://vivoweb.org/ontology/core#Building"
+    },
+    "BFO_0000004" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000004"
+    },
+    "FacultyMember" : {
+      "@id" : "http://vivoweb.org/ontology/core#FacultyMember"
+    },
+    "Grant" : {
+      "@id" : "http://vivoweb.org/ontology/core#Grant"
+    },
+    "OBI_0000833" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000833",
+      "@type" : "@id"
+    },
+    "Article" : {
+      "@id" : "http://purl.org/ontology/bibo/Article"
+    },
+    "nameListAR" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameListAR"
+    },
+    "Librarian" : {
+      "@id" : "http://vivoweb.org/ontology/core#Librarian"
+    },
+    "Sweetheart" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Sweetheart"
+    },
+    "AcademicDegree" : {
+      "@id" : "http://vivoweb.org/ontology/core#AcademicDegree"
+    },
+    "IAO_0000116" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000116"
+    },
+    "section" : {
+      "@id" : "http://purl.org/ontology/bibo/section"
+    },
+    "GovernmentAgency" : {
+      "@id" : "http://vivoweb.org/ontology/core#GovernmentAgency"
+    },
+    "BFO_0000179" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000179"
+    },
+    "Phase_0" : {
+      "@id" : "http://purl.org/net/OCRe/study_design.owl#Phase_0"
+    },
+    "translator" : {
+      "@id" : "http://purl.org/ontology/bibo/translator",
+      "@type" : "@id"
+    },
+    "Brief" : {
+      "@id" : "http://purl.org/ontology/bibo/Brief"
+    },
+    "hasPredecessorOrganization" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasPredecessorOrganization",
+      "@type" : "@id"
+    },
+    "sourceIdentifier" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#sourceIdentifier"
+    },
+    "hasProceedings" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasProceedings",
+      "@type" : "@id"
+    },
+    "populationUnit" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#populationUnit"
+    },
+    "geographicFocusOf" : {
+      "@id" : "http://vivoweb.org/ontology/core#geographicFocusOf",
+      "@type" : "@id"
+    },
+    "ERO_0000572" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000572",
+      "@type" : "@id"
+    },
+    "InstantMessage" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#InstantMessage"
+    },
+    "StudentOrganization" : {
+      "@id" : "http://vivoweb.org/ontology/core#StudentOrganization"
+    },
+    "NewsRelease" : {
+      "@id" : "http://vivoweb.org/ontology/core#NewsRelease"
+    },
+    "hasMember" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasMember",
+      "@type" : "@id"
+    },
+    "Male" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Male"
+    },
+    "Manuscript" : {
+      "@id" : "http://purl.org/ontology/bibo/Manuscript"
+    },
+    "Facility" : {
+      "@id" : "http://vivoweb.org/ontology/core#Facility"
+    },
+    "IAO_0000119" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000119"
+    },
+    "Website" : {
+      "@id" : "http://purl.org/ontology/bibo/Website"
+    },
+    "sponsors" : {
+      "@id" : "http://vivoweb.org/ontology/core#sponsors",
+      "@type" : "@id"
+    },
+    "ERO_0000778" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000778"
+    },
+    "PopulatedPlace" : {
+      "@id" : "http://vivoweb.org/ontology/core#PopulatedPlace"
+    },
+    "ERO_0000395" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000395"
+    },
+    "prerequisiteFor" : {
+      "@id" : "http://vivoweb.org/ontology/core#prerequisiteFor",
+      "@type" : "@id"
+    },
+    "preferredDisplayOrder" : {
+      "@id" : "http://vivoweb.org/ontology/core#preferredDisplayOrder"
+    },
+    "subsequentLegalDecision" : {
+      "@id" : "http://purl.org/ontology/bibo/subsequentLegalDecision",
+      "@type" : "@id"
+    },
+    "subcontractsGrant" : {
+      "@id" : "http://vivoweb.org/ontology/core#subcontractsGrant",
+      "@type" : "@id"
+    },
+    "LibrarianPosition" : {
+      "@id" : "http://vivoweb.org/ontology/core#LibrarianPosition"
+    },
+    "PrivateCompany" : {
+      "@id" : "http://vivoweb.org/ontology/core#PrivateCompany"
+    },
+    "ARG_0000033" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_0000033"
+    },
+    "self_governing" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#self_governing"
+    },
+    "AwardedDegree" : {
+      "@id" : "http://vivoweb.org/ontology/core#AwardedDegree"
+    },
+    "ERO_0000780" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000780"
+    },
+    "relatedBy" : {
+      "@id" : "http://vivoweb.org/ontology/core#relatedBy",
+      "@type" : "@id"
+    },
+    "curator" : {
+      "@id" : "http://purl.org/net/OCRe/statistics.owl#curator"
+    },
+    "Phase_1" : {
+      "@id" : "http://purl.org/net/OCRe/study_design.owl#Phase_1"
+    },
+    "Fax" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Fax"
+    },
+    "ARG_0000008" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_0000008"
+    },
+    "Library" : {
+      "@id" : "http://vivoweb.org/ontology/core#Library"
+    },
+    "nationalityES" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nationalityES"
+    },
+    "nameShortES" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameShortES"
+    },
+    "Issue" : {
+      "@id" : "http://purl.org/ontology/bibo/Issue"
+    },
+    "isCorrespondingAuthor" : {
+      "@id" : "http://vivoweb.org/ontology/core#isCorrespondingAuthor",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "AttendeeRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#AttendeeRole"
+    },
+    "Catalog" : {
+      "@id" : "http://vivoweb.org/ontology/core#Catalog"
+    },
+    "Security" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Security"
+    },
+    "ERO_0000565" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000565"
+    },
+    "RO_0000057" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000057",
+      "@type" : "@id"
+    },
+    "overview" : {
+      "@id" : "http://vivoweb.org/ontology/core#overview"
+    },
+    "EmeritusFaculty" : {
+      "@id" : "http://vivoweb.org/ontology/core#EmeritusFaculty"
+    },
+    "OBI_0000835" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000835"
+    },
+    "ERO_0001260" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001260"
+    },
+    "IAO_0000005" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000005"
+    },
+    "status" : {
+      "@id" : "http://purl.org/ontology/bibo/status",
+      "@type" : "@id"
+    },
+    "Work" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Work"
+    },
+    "RO_0002353" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002353",
+      "@type" : "@id"
+    },
+    "WorkingPaper" : {
+      "@id" : "http://vivoweb.org/ontology/core#WorkingPaper"
+    },
+    "shortDescription" : {
+      "@id" : "http://purl.org/ontology/bibo/shortDescription"
+    },
+    "start" : {
+      "@id" : "http://vivoweb.org/ontology/core#start",
+      "@type" : "@id"
+    },
+    "BlogPosting" : {
+      "@id" : "http://vivoweb.org/ontology/core#BlogPosting"
+    },
+    "UndergraduateAdvisingRelationship" : {
+      "@id" : "http://vivoweb.org/ontology/core#UndergraduateAdvisingRelationship"
+    },
+    "reviewedIn" : {
+      "@id" : "http://vivoweb.org/ontology/core#reviewedIn",
+      "@type" : "@id"
+    },
+    "ARG_2000012" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000012"
+    },
+    "BFO_0000015" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000015"
+    },
+    "FormattedName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#FormattedName"
+    },
+    "region" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#region",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "identifier" : {
+      "@id" : "http://vivoweb.org/ontology/core#identifier"
+    },
+    "featuredIn" : {
+      "@id" : "http://vivoweb.org/ontology/core#featuredIn",
+      "@type" : "@id"
+    },
+    "anniversary" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#anniversary",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "hasGeo" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasGeo",
+      "@type" : "@id"
+    },
+    "Foundation" : {
+      "@id" : "http://vivoweb.org/ontology/core#Foundation"
+    },
+    "OBI_0000017" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000017"
+    },
+    "BFO_0000029" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000029"
+    },
+    "calendarRequest" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#calendarRequest",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "Company" : {
+      "@id" : "http://vivoweb.org/ontology/core#Company"
+    },
+    "ARG_2000379" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000379"
+    },
+    "BFO_0000017" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000017"
+    },
+    "Kin" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Kin"
+    },
+    "AwardReceipt" : {
+      "@id" : "http://vivoweb.org/ontology/core#AwardReceipt"
+    },
+    "eRACommonsId" : {
+      "@id" : "http://vivoweb.org/ontology/core#eRACommonsId"
+    },
+    "FacultyMentoringRelationship" : {
+      "@id" : "http://vivoweb.org/ontology/core#FacultyMentoringRelationship"
+    },
+    "hasPrerequisite" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasPrerequisite",
+      "@type" : "@id"
+    },
+    "number" : {
+      "@id" : "http://purl.org/ontology/bibo/number"
+    },
+    "deprecated" : {
+      "@id" : "http://www.w3.org/2002/07/owl#deprecated"
+    },
+    "coden" : {
+      "@id" : "http://purl.org/ontology/bibo/coden"
+    },
+    "iclCode" : {
+      "@id" : "http://vivoweb.org/ontology/core#iclCode"
+    },
+    "UO_0000280" : {
+      "@id" : "http://purl.obolibrary.org/obo/UO_0000280"
+    },
+    "Blog" : {
+      "@id" : "http://vivoweb.org/ontology/core#Blog"
+    },
+    "IAO_0000601" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000601"
+    },
+    "RO_0002234" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002234",
+      "@type" : "@id"
+    },
+    "EditorRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#EditorRole"
+    },
+    "StateOrProvince" : {
+      "@id" : "http://vivoweb.org/ontology/core#StateOrProvince"
+    },
+    "upc" : {
+      "@id" : "http://purl.org/ontology/bibo/upc"
+    },
+    "Standard" : {
+      "@id" : "http://purl.org/ontology/bibo/Standard"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "IAO_0000111" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000111"
+    },
+    "supportedInformationResource" : {
+      "@id" : "http://vivoweb.org/ontology/core#supportedInformationResource",
+      "@type" : "@id"
+    },
+    "organizationName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#organizationName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "validIn" : {
+      "@id" : "http://vivoweb.org/ontology/core#validIn",
+      "@type" : "@id"
+    },
+    "telephone" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#telephone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "photo" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#photo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "BookSection" : {
+      "@id" : "http://purl.org/ontology/bibo/BookSection"
+    },
+    "Female" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Female"
+    },
+    "gtin14" : {
+      "@id" : "http://purl.org/ontology/bibo/gtin14"
+    },
+    "dateTimeValue" : {
+      "@id" : "http://vivoweb.org/ontology/core#dateTimeValue",
+      "@type" : "@id"
+    },
+    "hasGlobalCountValue" : {
+      "@id" : "http://purl.org/spar/c4o/hasGlobalCountValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "populationNotes" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#populationNotes"
+    },
+    "documentationFor" : {
+      "@id" : "http://vivoweb.org/ontology/scientific-research#documentationFor",
+      "@type" : "@id"
+    },
+    "OBI_0000643" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000643",
+      "@type" : "@id"
+    },
+    "BFO_0000002" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000002"
+    },
+    "Abstract" : {
+      "@id" : "http://vivoweb.org/ontology/core#Abstract"
+    },
+    "territory" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#territory"
+    },
+    "Team" : {
+      "@id" : "http://vivoweb.org/ontology/core#Team"
+    },
+    "codeCurrency" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#codeCurrency"
+    },
+    "codeFAOSTAT" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#codeFAOSTAT"
+    },
+    "Slideshow" : {
+      "@id" : "http://purl.org/ontology/bibo/Slideshow"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "ClinicalGuideline" : {
+      "@id" : "http://purl.org/spar/fabio/ClinicalGuideline"
+    },
+    "ERO_0000460" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000460",
+      "@type" : "@id"
+    },
+    "ERO_0000774" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000774",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "EventSeries" : {
+      "@id" : "http://vivoweb.org/ontology/core#EventSeries"
+    },
+    "equipmentFor" : {
+      "@id" : "http://vivoweb.org/ontology/core#equipmentFor",
+      "@type" : "@id"
+    },
+    "ERO_0000775" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000775",
+      "@type" : "@id"
+    },
+    "population" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#population"
+    },
+    "locality" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#locality",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Position" : {
+      "@id" : "http://vivoweb.org/ontology/core#Position"
+    },
+    "editorialNote" : {
+      "@id" : "http://www.w3.org/2008/05/skos#editorialNote"
+    },
+    "AcademicYear" : {
+      "@id" : "http://vivoweb.org/ontology/core#AcademicYear"
+    },
+    "CourtReporter" : {
+      "@id" : "http://purl.org/ontology/bibo/CourtReporter"
+    },
+    "honorificSuffix" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#honorificSuffix",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "BFO_0000023" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000023"
+    },
+    "UndergraduateStudent" : {
+      "@id" : "http://vivoweb.org/ontology/core#UndergraduateStudent"
+    },
+    "Manual" : {
+      "@id" : "http://purl.org/ontology/bibo/Manual"
+    },
+    "LegalDecision" : {
+      "@id" : "http://purl.org/ontology/bibo/LegalDecision"
+    },
+    "Project" : {
+      "@id" : "http://vivoweb.org/ontology/core#Project"
+    },
+    "GeographicLocation" : {
+      "@id" : "http://vivoweb.org/ontology/core#GeographicLocation"
+    },
+    "PersonalCommunicationDocument" : {
+      "@id" : "http://purl.org/ontology/bibo/PersonalCommunicationDocument"
+    },
+    "Interview" : {
+      "@id" : "http://purl.org/ontology/bibo/Interview"
+    },
+    "ERO_0000786" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000786"
+    },
+    "IAO_0000027" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000027"
+    },
+    "ERO_0000787" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000787"
+    },
+    "GraduateStudent" : {
+      "@id" : "http://vivoweb.org/ontology/core#GraduateStudent"
+    },
+    "assignedBy" : {
+      "@id" : "http://vivoweb.org/ontology/core#assignedBy",
+      "@type" : "@id"
+    },
+    "hasCategory" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasCategory",
+      "@type" : "@id"
+    },
+    "Certification" : {
+      "@id" : "http://vivoweb.org/ontology/core#Certification"
+    },
+    "dateFiled" : {
+      "@id" : "http://vivoweb.org/ontology/core#dateFiled",
+      "@type" : "@id"
+    },
+    "has_agent" : {
+      "@id" : "http://www.obofoundry.org/ro/ro.owl#has_agent",
+      "@type" : "@id"
+    },
+    "ERO_0000914" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000914"
+    },
+    "EmeritusLibrarian" : {
+      "@id" : "http://vivoweb.org/ontology/core#EmeritusLibrarian"
+    },
+    "streetAddress" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#streetAddress",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "DocumentStatus" : {
+      "@id" : "http://purl.org/ontology/bibo/DocumentStatus"
+    },
+    "relates" : {
+      "@id" : "http://vivoweb.org/ontology/core#relates",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#title",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CoPrincipalInvestigatorRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#CoPrincipalInvestigatorRole"
+    },
+    "hasSubjectArea" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasSubjectArea",
+      "@type" : "@id"
+    },
+    "sourceCreator" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#sourceCreator"
+    },
+    "issn" : {
+      "@id" : "http://purl.org/ontology/bibo/issn"
+    },
+    "Geographical" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Geographical"
+    },
+    "hasCollaborator" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasCollaborator",
+      "@type" : "@id"
+    },
+    "RO_0001018" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0001018",
+      "@type" : "@id"
+    },
+    "ARG_2000028" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000028",
+      "@type" : "@id"
+    },
+    "assignee" : {
+      "@id" : "http://vivoweb.org/ontology/core#assignee",
+      "@type" : "@id"
+    },
+    "BFO_0000038" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000038"
+    },
+    "ARG_2000010" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000010"
+    },
+    "source" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#source",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "placeOfPublication" : {
+      "@id" : "http://vivoweb.org/ontology/core#placeOfPublication"
+    },
+    "edition" : {
+      "@id" : "http://purl.org/ontology/bibo/edition"
+    },
+    "publisher" : {
+      "@id" : "http://vivoweb.org/ontology/core#publisher",
+      "@type" : "@id"
+    },
+    "HDI" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#HDI"
+    },
+    "ARG_0000001" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_0000001",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "CollectionProcess" : {
+      "@id" : "http://vivoweb.org/ontology/core#CollectionProcess"
+    },
+    "agriculturalAreaTotal" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#agriculturalAreaTotal"
+    },
+    "Meeting" : {
+      "@id" : "http://vivoweb.org/ontology/core#Meeting"
+    },
+    "ThesisDegree" : {
+      "@id" : "http://purl.org/ontology/bibo/ThesisDegree"
+    },
+    "Film" : {
+      "@id" : "http://purl.org/ontology/bibo/Film"
+    },
+    "isPredecessorOf" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#isPredecessorOf",
+      "@type" : "@id"
+    },
+    "BFO_0000003" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000003"
+    },
+    "teachingOverview" : {
+      "@id" : "http://vivoweb.org/ontology/core#teachingOverview"
+    },
+    "Definition" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#Definition"
+    },
+    "Hospital" : {
+      "@id" : "http://vivoweb.org/ontology/core#Hospital"
+    },
+    "codeUNDP" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#codeUNDP"
+    },
+    "supports" : {
+      "@id" : "http://vivoweb.org/ontology/core#supports",
+      "@type" : "@id"
+    },
+    "Laboratory" : {
+      "@id" : "http://vivoweb.org/ontology/core#Laboratory"
+    },
+    "hasInstantMessage" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasInstantMessage",
+      "@type" : "@id"
+    },
+    "ERO_0000788" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000788"
+    },
+    "ERO_0000394" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000394"
+    },
+    "MedicalResidency" : {
+      "@id" : "http://vivoweb.org/ontology/core#MedicalResidency"
+    },
+    "ERO_0000037" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000037",
+      "@type" : "@id"
+    },
+    "Excerpt" : {
+      "@id" : "http://purl.org/ontology/bibo/Excerpt"
+    },
+    "numPages" : {
+      "@id" : "http://purl.org/ontology/bibo/numPages"
+    },
+    "Museum" : {
+      "@id" : "http://vivoweb.org/ontology/core#Museum"
+    },
+    "HDITotal" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#HDITotal"
+    },
+    "IAO_0000030" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000030"
+    },
+    "agriculturalAreaUnit" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#agriculturalAreaUnit"
+    },
+    "Exhibit" : {
+      "@id" : "http://vivoweb.org/ontology/core#Exhibit"
+    },
+    "disputed" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#disputed"
+    },
+    "hasCoordinate" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasCoordinate"
+    },
+    "wikidataId" : {
+      "@id" : "http://vivoweb.org/ontology/core#wikidataId"
+    },
+    "other" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#other"
+    },
+    "RO_0001000" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0001000",
+      "@type" : "@id"
+    },
+    "nationalityIT" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nationalityIT"
+    },
+    "BFO_0000016" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000016"
+    },
+    "Thesis" : {
+      "@id" : "http://purl.org/ontology/bibo/Thesis"
+    },
+    "oclcnum" : {
+      "@id" : "http://purl.org/ontology/bibo/oclcnum"
+    },
+    "CalendarRequest" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#CalendarRequest"
+    },
+    "hasGoverningAuthority" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasGoverningAuthority",
+      "@type" : "@id"
+    },
+    "InvestigatorRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#InvestigatorRole"
+    },
+    "ARG_2000390" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000390",
+      "@type" : "@id"
+    },
+    "accessProvidedBy" : {
+      "@id" : "http://vivoweb.org/ontology/scientific-research#accessProvidedBy",
+      "@type" : "@id"
+    },
+    "outreachOverview" : {
+      "@id" : "http://vivoweb.org/ontology/core#outreachOverview"
+    },
+    "birthdate" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#birthdate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "ARG_2000376" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000376"
+    },
+    "volume" : {
+      "@id" : "http://purl.org/ontology/bibo/volume"
+    },
+    "Related" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Related"
+    },
+    "non_self_governing" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#non_self_governing"
+    },
+    "citesAsDataSource" : {
+      "@id" : "http://purl.org/spar/cito/citesAsDataSource",
+      "@type" : "@id"
+    },
+    "Continent" : {
+      "@id" : "http://vivoweb.org/ontology/core#Continent"
+    },
+    "entryTerm" : {
+      "@id" : "http://vivoweb.org/ontology/core#entryTerm"
+    },
+    "hasResearchArea" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasResearchArea",
+      "@type" : "@id"
+    },
+    "distributor" : {
+      "@id" : "http://purl.org/ontology/bibo/distributor",
+      "@type" : "@id"
+    },
+    "ERO_0000012" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000012"
+    },
+    "eligibleFor" : {
+      "@id" : "http://vivoweb.org/ontology/core#eligibleFor",
+      "@type" : "@id"
+    },
+    "degreeCandidacy" : {
+      "@id" : "http://vivoweb.org/ontology/core#degreeCandidacy",
+      "@type" : "@id"
+    },
+    "hasShortName" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasShortName"
+    },
+    "nameListIT" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameListIT"
+    },
+    "School" : {
+      "@id" : "http://vivoweb.org/ontology/core#School"
+    },
+    "hasPhoto" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasPhoto",
+      "@type" : "@id"
+    },
+    "logo" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#logo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#anyURI"
+    },
+    "ERO_0000397" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000397",
+      "@type" : "@id"
+    },
+    "expirationDate" : {
+      "@id" : "http://vivoweb.org/ontology/core#expirationDate",
+      "@type" : "@id"
+    },
+    "Series" : {
+      "@id" : "http://purl.org/ontology/bibo/Series"
+    },
+    "Cell" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Cell"
+    },
+    "Text" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Text"
+    },
+    "BFO_0000050" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000050",
+      "@type" : "@id"
+    },
+    "ERO_0000033" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000033",
+      "@type" : "@id"
+    },
+    "Periodical" : {
+      "@id" : "http://purl.org/ontology/bibo/Periodical"
+    },
+    "Phase_3" : {
+      "@id" : "http://purl.org/net/OCRe/study_design.owl#Phase_3"
+    },
+    "validSince" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#validSince"
+    },
+    "ERO_0000482" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000482",
+      "@type" : "@id"
+    },
+    "Friend" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Friend"
+    },
+    "Newspaper" : {
+      "@id" : "http://purl.org/ontology/bibo/Newspaper"
+    },
+    "ERO_0001518" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001518",
+      "@type" : "@id"
+    },
+    "nameOfficialZH" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameOfficialZH"
+    },
+    "BFO_0000054" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000054",
+      "@type" : "@id"
+    },
+    "IAO_0000412" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000412"
+    },
+    "Language" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Language"
+    },
+    "ExtensionUnit" : {
+      "@id" : "http://vivoweb.org/ontology/core#ExtensionUnit"
+    },
+    "HDINotes" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#HDINotes"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "Authorship" : {
+      "@id" : "http://vivoweb.org/ontology/core#Authorship"
+    },
+    "Phase3ClinicalTrial" : {
+      "@id" : "http://vivoweb.org/ontology/scientific-research#Phase3ClinicalTrial"
+    },
+    "RO_0000056" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0000056",
+      "@type" : "@id"
+    },
+    "Presentation" : {
+      "@id" : "http://vivoweb.org/ontology/core#Presentation"
+    },
+    "cites" : {
+      "@id" : "http://purl.org/ontology/bibo/cites",
+      "@type" : "@id"
+    },
+    "countryArea" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#countryArea"
+    },
+    "SWO_0000741" : {
+      "@id" : "http://www.ebi.ac.uk/efo/swo/SWO_0000741",
+      "@type" : "@id"
+    },
+    "nihmsid" : {
+      "@id" : "http://vivoweb.org/ontology/core#nihmsid"
+    },
+    "hasGlobalCountDate" : {
+      "@id" : "http://purl.org/spar/c4o/hasGlobalCountDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
+    },
+    "AudioDocument" : {
+      "@id" : "http://purl.org/ontology/bibo/AudioDocument"
+    },
+    "nameOfficialAR" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameOfficialAR"
+    },
+    "LeaderRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#LeaderRole"
+    },
+    "BFO_0000034" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000034"
+    },
+    "countryAreaYear" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#countryAreaYear"
+    },
+    "category" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#category",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "rorId" : {
+      "@id" : "http://vivoweb.org/ontology/core#rorId"
+    },
+    "Student" : {
+      "@id" : "http://vivoweb.org/ontology/core#Student"
+    },
+    "hasLanguage" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasLanguage",
+      "@type" : "@id"
+    },
+    "translationOf" : {
+      "@id" : "http://purl.org/ontology/bibo/translationOf",
+      "@type" : "@id"
+    },
+    "ERO_0000029" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000029",
+      "@type" : "@id"
+    },
+    "Phase_2" : {
+      "@id" : "http://purl.org/net/OCRe/study_design.owl#Phase_2"
+    },
+    "abbreviation" : {
+      "@id" : "http://vivoweb.org/ontology/core#abbreviation"
+    },
+    "Calendar" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Calendar"
+    },
+    "Postdoc" : {
+      "@id" : "http://vivoweb.org/ontology/core#Postdoc"
+    },
+    "CaseStudy" : {
+      "@id" : "http://vivoweb.org/ontology/core#CaseStudy"
+    },
+    "validUntil" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#validUntil"
+    },
+    "IAO_0000104" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000104"
+    },
+    "annotates" : {
+      "@id" : "http://purl.org/ontology/bibo/annotates",
+      "@type" : "@id"
+    },
+    "hasStatistics" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasStatistics"
+    },
+    "nameOfficialRU" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameOfficialRU"
+    },
+    "ERO_0000070" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000070",
+      "@type" : "@id"
+    },
+    "hasMinLatitude" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasMinLatitude"
+    },
+    "nameCurrencyFR" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameCurrencyFR"
+    },
+    "FacultyAdministrativePosition" : {
+      "@id" : "http://vivoweb.org/ontology/core#FacultyAdministrativePosition"
+    },
+    "IAO_0000600" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000600"
+    },
+    "ERO_0000006" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000006"
+    },
+    "chapter" : {
+      "@id" : "http://purl.org/ontology/bibo/chapter"
+    },
+    "IAO_0000102" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000102"
+    },
+    "ARG_2000391" : {
+      "@id" : "http://purl.obolibrary.org/obo/ARG_2000391",
+      "@type" : "@id"
+    },
+    "contactInformation" : {
+      "@id" : "http://vivoweb.org/ontology/core#contactInformation"
+    },
+    "DateTimeValuePrecision" : {
+      "@id" : "http://vivoweb.org/ontology/core#DateTimeValuePrecision"
+    },
+    "Organizational" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Organizational"
+    },
+    "Interventional_study" : {
+      "@id" : "http://purl.org/net/OCRe/research.owl#Interventional_study"
+    },
+    "BibliographicInformationSource" : {
+      "@id" : "http://purl.org/spar/c4o/BibliographicInformationSource"
+    },
+    "GDPTotalInCurrentPrices" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#GDPTotalInCurrentPrices"
+    },
+    "Child" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Child"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+      "@type" : "@id"
+    },
+    "hasFacility" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasFacility",
+      "@type" : "@id"
+    },
+    "RO_0002350" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002350",
+      "@type" : "@id"
+    },
+    "GeopoliticalEntity" : {
+      "@id" : "http://vivoweb.org/ontology/core#GeopoliticalEntity"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "nameListZH" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameListZH"
+    },
+    "swhid" : {
+      "@id" : "http://vivoweb.org/ontology/core#swhid"
+    },
+    "Image" : {
+      "@id" : "http://purl.org/ontology/bibo/Image"
+    },
+    "BFO_0000180" : {
+      "@id" : "http://purl.obolibrary.org/obo/BFO_0000180"
+    },
+    "hasMonetaryAmount" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasMonetaryAmount"
+    },
+    "Name" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Name"
+    },
+    "dateIssued" : {
+      "@id" : "http://vivoweb.org/ontology/core#dateIssued",
+      "@type" : "@id"
+    },
+    "nickName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#nickName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "providesFundingThrough" : {
+      "@id" : "http://vivoweb.org/ontology/core#providesFundingThrough",
+      "@type" : "@id"
+    },
+    "hasKey" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasKey",
+      "@type" : "@id"
+    },
+    "studyPopulationCount" : {
+      "@id" : "http://vivoweb.org/ontology/scientific-research#studyPopulationCount"
+    },
+    "hasOrganizationalUnitName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasOrganizationalUnitName",
+      "@type" : "@id"
+    },
+    "Document" : {
+      "@id" : "http://purl.org/ontology/bibo/Document"
+    },
+    "County" : {
+      "@id" : "http://vivoweb.org/ontology/core#County"
+    },
+    "Code" : {
+      "@id" : "http://purl.org/ontology/bibo/Code"
+    },
+    "nameCurrencyAR" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameCurrencyAR"
+    },
+    "License" : {
+      "@id" : "http://vivoweb.org/ontology/core#License"
+    },
+    "language" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#language",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Hearing" : {
+      "@id" : "http://purl.org/ontology/bibo/Hearing"
+    },
+    "agriculturalAreaYear" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#agriculturalAreaYear"
+    },
+    "Addressing" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Addressing"
+    },
+    "protocolRealizedBy" : {
+      "@id" : "http://vivoweb.org/ontology/scientific-research#protocolRealizedBy",
+      "@type" : "@id"
+    },
+    "features" : {
+      "@id" : "http://vivoweb.org/ontology/core#features",
+      "@type" : "@id"
+    },
+    "hasGlobalCountSource" : {
+      "@id" : "http://purl.org/spar/c4o/hasGlobalCountSource",
+      "@type" : "@id"
+    },
+    "Group" : {
+      "@id" : "http://xmlns.com/foaf/0.1/Group"
+    },
+    "Association" : {
+      "@id" : "http://vivoweb.org/ontology/core#Association"
+    },
+    "ResearcherRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#ResearcherRole"
+    },
+    "NonFacultyAcademicPosition" : {
+      "@id" : "http://vivoweb.org/ontology/core#NonFacultyAcademicPosition"
+    },
+    "Phase_4" : {
+      "@id" : "http://purl.org/net/OCRe/study_design.owl#Phase_4"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/terms/contributor",
+      "@type" : "@id"
+    },
+    "OrganizationUnitName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#OrganizationUnitName"
+    },
+    "supplementalInformation" : {
+      "@id" : "http://vivoweb.org/ontology/core#supplementalInformation"
+    },
+    "Phase0ClinicalTrial" : {
+      "@id" : "http://vivoweb.org/ontology/scientific-research#Phase0ClinicalTrial"
+    },
+    "hasEquipment" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasEquipment",
+      "@type" : "@id"
+    },
+    "irbNumber" : {
+      "@id" : "http://vivoweb.org/ontology/scientific-research#irbNumber"
+    },
+    "WorkshopSeries" : {
+      "@id" : "http://vivoweb.org/ontology/core#WorkshopSeries"
+    },
+    "isCitedAsDataSourceBy" : {
+      "@id" : "http://purl.org/spar/cito/isCitedAsDataSourceBy",
+      "@type" : "@id"
+    },
+    "formattedName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#formattedName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "IAO_0000007" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000007"
+    },
+    "ERO_0001245" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001245"
+    },
+    "hasLogo" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasLogo",
+      "@type" : "@id"
+    },
+    "Erratum" : {
+      "@id" : "http://purl.org/spar/fabio/Erratum"
+    },
+    "hasNickname" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasNickname",
+      "@type" : "@id"
+    },
+    "IAO_0000009" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000009"
+    },
+    "informationResourceSupportedBy" : {
+      "@id" : "http://vivoweb.org/ontology/core#informationResourceSupportedBy",
+      "@type" : "@id"
+    },
+    "dateTimeInterval" : {
+      "@id" : "http://vivoweb.org/ontology/core#dateTimeInterval",
+      "@type" : "@id"
+    },
+    "Voice" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Voice"
+    },
+    "cclCode" : {
+      "@id" : "http://vivoweb.org/ontology/core#cclCode"
+    },
+    "deprecated_op" : {
+      "@id" : "http://isf/deprecated_op",
+      "@type" : "@id"
+    },
+    "ERO_0000038" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000038",
+      "@type" : "@id"
+    },
+    "GDPUnit" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#GDPUnit"
+    },
+    "Phase2ClinicalTrial" : {
+      "@id" : "http://vivoweb.org/ontology/scientific-research#Phase2ClinicalTrial"
+    },
+    "ServiceProvidingLaboratory" : {
+      "@id" : "http://vivoweb.org/ontology/core#ServiceProvidingLaboratory"
+    },
+    "ERO_0000034" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000034",
+      "@type" : "@id"
+    },
+    "Division" : {
+      "@id" : "http://vivoweb.org/ontology/core#Division"
+    },
+    "Other" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Other"
+    },
+    "CalendarBusy" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#CalendarBusy"
+    },
+    "RO_0002351" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0002351",
+      "@type" : "@id"
+    },
+    "OBI_0000094" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000094"
+    },
+    "seatingCapacity" : {
+      "@id" : "http://vivoweb.org/ontology/core#seatingCapacity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "Spouse" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Spouse"
+    },
+    "nameListEN" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nameListEN"
+    },
+    "asin" : {
+      "@id" : "http://purl.org/ontology/bibo/asin"
+    },
+    "Conference" : {
+      "@id" : "http://purl.org/ontology/bibo/Conference"
+    },
+    "Campus" : {
+      "@id" : "http://vivoweb.org/ontology/core#Campus"
+    },
+    "Acquaintance" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Acquaintance"
+    },
+    "organization" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#organization"
+    },
+    "Certificate" : {
+      "@id" : "http://vivoweb.org/ontology/core#Certificate"
+    },
+    "OBI_0000304" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000304",
+      "@type" : "@id"
+    },
+    "Journal" : {
+      "@id" : "http://purl.org/ontology/bibo/Journal"
+    },
+    "pmid" : {
+      "@id" : "http://purl.org/ontology/bibo/pmid"
+    },
+    "IAO_0000039" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000039",
+      "@type" : "@id"
+    },
+    "nationalityAR" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nationalityAR"
+    },
+    "additionalName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#additionalName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "GeographicRegion" : {
+      "@id" : "http://vivoweb.org/ontology/core#GeographicRegion"
+    },
+    "PostdocOrFellowAdvisingRelationship" : {
+      "@id" : "http://vivoweb.org/ontology/core#PostdocOrFellowAdvisingRelationship"
+    },
+    "Logo" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Logo"
+    },
+    "GraduateAdvisingRelationship" : {
+      "@id" : "http://vivoweb.org/ontology/core#GraduateAdvisingRelationship"
+    },
+    "end" : {
+      "@id" : "http://vivoweb.org/ontology/core#end",
+      "@type" : "@id"
+    },
+    "bug-database" : {
+      "@id" : "http://usefulinc.com/ns/doap#bug-database"
+    },
+    "develop_comment" : {
+      "@id" : "http://purl.org/net/OCRe/study_protocol.owl#develop_comment"
+    },
+    "ERO_0000072" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000072",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isbn10" : {
+      "@id" : "http://purl.org/ontology/bibo/isbn10"
+    },
+    "scopusId" : {
+      "@id" : "http://vivoweb.org/ontology/core#scopusId"
+    },
+    "conceptAssociatedWith" : {
+      "@id" : "http://vivoweb.org/ontology/core#conceptAssociatedWith",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://vivoweb.org/ontology/core#description"
+    },
+    "Database" : {
+      "@id" : "http://vivoweb.org/ontology/core#Database"
+    },
+    "agriculturalArea" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#agriculturalArea"
+    },
+    "hasBorderWith" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#hasBorderWith",
+      "@type" : "@id"
+    },
+    "IAO_0000144" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000144"
+    },
+    "PostdoctoralTraining" : {
+      "@id" : "http://vivoweb.org/ontology/core#PostdoctoralTraining"
+    },
+    "hrJobTitle" : {
+      "@id" : "http://vivoweb.org/ontology/core#hrJobTitle"
+    },
+    "ResearchProposal" : {
+      "@id" : "http://vivoweb.org/ontology/core#ResearchProposal"
+    },
+    "Home" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Home"
+    },
+    "landAreaTotal" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#landAreaTotal"
+    },
+    "ERO_0001521" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001521",
+      "@type" : "@id"
+    },
+    "hasFormattedName" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#hasFormattedName",
+      "@type" : "@id"
+    },
+    "lccn" : {
+      "@id" : "http://purl.org/ontology/bibo/lccn"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "OrganizingProcess" : {
+      "@id" : "http://vivoweb.org/ontology/core#OrganizingProcess"
+    },
+    "ReviewerRole" : {
+      "@id" : "http://vivoweb.org/ontology/core#ReviewerRole"
+    },
+    "Met" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Met"
+    },
+    "TextPhone" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#TextPhone"
+    },
+    "nationalityRU" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#nationalityRU"
+    },
+    "Statute" : {
+      "@id" : "http://purl.org/ontology/bibo/Statute"
+    },
+    "sortAs" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#sortAs",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Kind" : {
+      "@id" : "http://www.w3.org/2006/vcard/ns#Kind"
+    },
+    "descriptionAnnot" : {
+      "@id" : "http://vitro.mannlib.cornell.edu/ns/vitro/0.7#descriptionAnnot"
+    },
+    "proceedingsOf" : {
+      "@id" : "http://vivoweb.org/ontology/core#proceedingsOf",
+      "@type" : "@id"
+    },
+    "offers" : {
+      "@id" : "http://vivoweb.org/ontology/core#offers",
+      "@type" : "@id"
+    },
+    "ERO_0000595" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000595"
+    },
+    "AcademicDepartment" : {
+      "@id" : "http://vivoweb.org/ontology/core#AcademicDepartment"
+    },
+    "Collection" : {
+      "@id" : "http://purl.org/ontology/bibo/Collection"
+    },
+    "ERO_0000543" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0000543",
+      "@type" : "@id"
+    },
+    "OBI_0000312" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000312",
+      "@type" : "@id"
+    },
+    "performer" : {
+      "@id" : "http://purl.org/ontology/bibo/performer",
+      "@type" : "@id"
+    },
+    "IAO_0000032" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000032"
+    },
+    "countryAreaNotes" : {
+      "@id" : "http://aims.fao.org/aos/geopolitical.owl#countryAreaNotes"
+    },
+    "SeminarSeries" : {
+      "@id" : "http://vivoweb.org/ontology/core#SeminarSeries"
+    },
+    "OBI_0000272" : {
+      "@id" : "http://purl.obolibrary.org/obo/OBI_0000272"
+    },
+    "hasSuccessorOrganization" : {
+      "@id" : "http://vivoweb.org/ontology/core#hasSuccessorOrganization",
+      "@type" : "@id"
+    },
+    "ERO_0001716" : {
+      "@id" : "http://purl.obolibrary.org/obo/ERO_0001716"
+    },
+    "SWO_0000740" : {
+      "@id" : "http://www.ebi.ac.uk/efo/swo/SWO_0000740",
+      "@type" : "@id"
+    },
+    "Letter" : {
+      "@id" : "http://purl.org/ontology/bibo/Letter"
+    },
+    "RO_0003001" : {
+      "@id" : "http://purl.obolibrary.org/obo/RO_0003001",
+      "@type" : "@id"
+    },
+    "Synonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#Synonym"
+    },
+    "Internship" : {
+      "@id" : "http://vivoweb.org/ontology/core#Internship"
+    },
+    "Quote" : {
+      "@id" : "http://purl.org/ontology/bibo/Quote"
+    },
+    "fundingVehicleFor" : {
+      "@id" : "http://vivoweb.org/ontology/core#fundingVehicleFor",
+      "@type" : "@id"
+    },
+    "IAO_0000115" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+    },
+    "isbn13" : {
+      "@id" : "http://purl.org/ontology/bibo/isbn13"
+    }
+  }
+}
