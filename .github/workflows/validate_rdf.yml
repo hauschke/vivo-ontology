@@ -1,0 +1,43 @@
+name: Validate vivo.owl
+
+on:
+  pull_request:
+    paths:
+      - 'vivo.owl'
+  workflow_dispatch:
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  validate-rdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Download Apache Jena
+        run: |
+          wget https://dlcdn.apache.org/jena/binaries/apache-jena-5.2.0.tar.gz -O apache-jena.tar.gz
+          tar -xzf apache-jena.tar.gz
+
+      - name: Validate RDF
+        run: |
+          $GITHUB_WORKSPACE/apache-jena-5.2.0/bin/riot --validate vivo.owl > $GITHUB_WORKSPACE/validation_report.txt || true
+          cat $GITHUB_WORKSPACE/validation_report.txt
+
+      - name: Ensure Validation Report Exists
+        run: |
+          if [ ! -f $GITHUB_WORKSPACE/validation_report.txt ]; then
+            echo "Validation report not generated. Exiting."
+            exit 1
+          fi
+
+      - name: Post validation report to PR
+        if: github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: Validation Report for vivo.owl
+          path: ${{ github.workspace }}/validation_report.txt
